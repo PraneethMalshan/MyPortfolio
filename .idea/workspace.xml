@@ -1,48 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdbcfc00-441b-4ea4-8695-00fbfa861226" name="Default Changelist" comment="">
+    <list default="true" id="adfecb28-c9d0-4d52-a635-df6b43ffaf3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assest/image/png/pro.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2LAabo62wETja1MvPkdVekPC7er" />
+  <component name="ProjectId" id="2MlR3DQUMINsurtX1WmJE6dJc6b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/image/png" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fdbcfc00-441b-4ea4-8695-00fbfa861226" name="Default Changelist" comment="" />
-      <created>1675316414620</created>
+      <changelist id="adfecb28-c9d0-4d52-a635-df6b43ffaf3f" name="Default Changelist" comment="" />
+      <created>1678339982324</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675316414620</updated>
-      <workItem from="1675316416138" duration="4099000" />
-      <workItem from="1675449568117" duration="801000" />
+      <updated>1678339982324</updated>
+      <workItem from="1678339986935" duration="5141000" />
+      <workItem from="1678350532737" duration="1129000" />
     </task>
     <servers />
   </component>
