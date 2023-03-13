@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfecb28-c9d0-4d52-a635-df6b43ffaf3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assest/other/pdf/CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,10 +24,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/image/png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/other/pdf" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\other\pdf" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png" />
     </key>
   </component>
@@ -53,7 +55,7 @@
       <updated>1678339982324</updated>
       <workItem from="1678339986935" duration="5141000" />
       <workItem from="1678350532737" duration="4900000" />
-      <workItem from="1678584187423" duration="30772000" />
+      <workItem from="1678584187423" duration="35061000" />
     </task>
     <servers />
   </component>
