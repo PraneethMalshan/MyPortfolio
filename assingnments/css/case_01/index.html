@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assingnment_01-CSS</title>
+    <link rel="stylesheet" href="normalize.css">
+
+<!--    <meta content="width=device-width, initial-scale=1" name="viewport">-->
+
+
+    <style>
+
+        body>section{
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+        }
+
+        body>section:nth-child(1){
+            background: red;
+            left: 0px;
+            top: 0px;
+        }
+        body>section:nth-child(2){
+            background: green;
+            right: 0px;
+            top: 0px;
+        }
+        body>section:nth-child(3){
+            background: orange;
+            bottom: 0px;
+            left: 0px;
+        }
+        body>section:nth-child(4){
+            background: deeppink;
+            bottom: 0px;
+            right: 0px;
+        }
+
+/*For coner Circle*/
+
+            body>div{
+
+            border: 2px solid rgb(255, 255, 255);
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            z-index: 2;
+            background-color: rgb(255, 255, 255);
+        }
+
+        body > div:nth-child(5) {
+            top: 0;
+            left: 0;
+            border-bottom-right-radius: 150px;
+        }
+        body > div:nth-child(6) {
+            top: 0;
+            right: 0;
+            border-bottom-left-radius: 150px;
+        }
+
+        body > div:nth-child(7) {
+            bottom: 0;
+            left: 0;
+            border-top-right-radius: 150px;
+        }
+
+        body > div:nth-child(8) {
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 150px;
+        }
+
+/*Center Box*/
+        body>div:nth-child(9){
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+/*Center Circle*/
+        body>div>div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 100px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+
+    body>div:nth-child(10){
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        height: 100px;
+        width: 200px;
+        border-bottom-left-radius:100px ;
+        border-bottom-right-radius:100px ;
+    }
+
+    body>div:nth-child(11){
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 100px;
+        width: 200px;
+        border-top-left-radius:100px ;
+        border-top-right-radius:100px ;
+    }
+
+
+    body>section>div{
+        background-color: white;
+        border-radius: 150px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    body>section>div>div{
+        background-color: red;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+
+
+    </style>
+
+</head>
+<body>
+<!--Main Sections-->
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+
+<!--For coner Circle-->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+<!--Center Box-->
+<div>
+    <!--Center Circle-->
+    <div></div>
+</div>
+
+
+<div></div>
+<div></div>
+
+</body>
+</html>
