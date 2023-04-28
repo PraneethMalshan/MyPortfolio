@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfecb28-c9d0-4d52-a635-df6b43ffaf3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFour/assets/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFour/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/download (10).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/download (11).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/download (12).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (17).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (18).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (19).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (20).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (21).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (22).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (23).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (24).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/assests/images (25).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseFive/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/css/caseTwo/ass2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kkk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +52,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/css/caseFour/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/css/caseFive/assests" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\css\caseFive\assests" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\css\caseFour\assets" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\css\caseThree\assets" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\css\caseTwo\assets" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\font_awesom" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\css\caseTwo" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\css\caseTwo\assets" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,7 +97,8 @@
       <workItem from="1680100636578" duration="20713000" />
       <workItem from="1681131785685" duration="619000" />
       <workItem from="1681961939324" duration="21742000" />
-      <workItem from="1682058731871" duration="21780000" />
+      <workItem from="1682058731871" duration="29100000" />
+      <workItem from="1682522647618" duration="18156000" />
     </task>
     <servers />
   </component>
