@@ -8,6 +8,18 @@ body{
     background-color: #000000;
 }
 
+/*Scrol bar eka wenas karana pseudo class ekk*/
+::-webkit-scrollbar{
+    width: 16px;
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2be293 ;
+}
+/*---------------------------------------------------------*/
+
+
 body>div:nth-child(1){
    background-color: #FA0079;
     height: 40vh;
@@ -49,25 +61,74 @@ body>div:nth-child(4){
     margin: auto;
     z-index: 2;
 }
-
-body>main{
+/*------------------------------------------------------------*/
+/*Thada nil color div page eka*/
+body>main>section{
     width: 97.5%;
     height: 95vh;
-    position: absolute;
+    position: relative;
     background-color: #05061A;
     left: 0;
     bottom: 0;
     right: 0;
-    top: 0;
+    top: 18px;
     margin: auto;
-
 }
 
-/**/
+/*=================Can delete=================================================================*/
+/*body>main>section:nth-child(2){*/
+/*        width: 97.5%;*/
+/*        height: 95vh;*/
+/*        position: relative;*/
+/*    !*background-color: #05061A;*!*/
+/*    background-color: #d2e907;*/
 
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    margin: auto;*/
+/*}*/
 
+/*=====================================*/
+/*body>main>div:nth-child(1){*/
+/*    height: 95.1vh;*/
+/*    width: 97.5%;*/
+/*    background-color:#2be293 ;*/
+/*    position: relative;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    top: 18px;*/
+/*    margin: auto;*/
+/*}*/
+/*body>main>div:nth-child(2){*/
+/*    !*height: 95vh;*!*/
+/*    !*width: 97.5%;*!*/
+/*    background-color:#d2e907 ;*/
+/*    !*position: absolute;*!*/
+/*    !*left: 0;*!*/
+/*    !*bottom: 0;*!*/
+/*    !*right: 0;*!*/
+/*    !*top: 0;*!*/
+/*    !*margin: auto;*!*/
+/*}*/
+/*body>main>div:nth-child(3){*/
+/*    !*height: 95vh;*!*/
+/*    !*width: 97.5%;*!*/
+/*    background-color:#ff253a ;*/
+/*    !*position: absolute;*!*/
+/*    !*left: 0;*!*/
+/*    !*bottom: 0;*!*/
+/*    !*right: 0;*!*/
+/*    !*top: 0;*!*/
+/*    !*margin: auto;*!*/
+/*}*/
+/*==================================================================================*/
 
+/*------------------------------------*/
 
+/*Logo eka*/
 body>main>section>header>div>img{
     width: 50px;
     height: 50px;
@@ -96,8 +157,11 @@ body>main>section>header>h1 {
     border-bottom: 20px;
     position: absolute;
     margin-top: 25px;
-    font-family:inherit;
+    font-family:"Microsoft JhengHei Light";
+    /*font-family:inherit;*/
 }
+
+/*-------------------------------------------*/
 
 /*Header*/
 body>main>section>header>nav>ul{
@@ -108,7 +172,6 @@ body>main>section>header>nav>ul{
 body>main>section>header>nav>ul>li>a{
     text-decoration: none;
     color: white;
-
 }
 
 body>main>section>header>nav>ul>li{
@@ -131,61 +194,260 @@ body > main > section > header > nav >ul  :hover {
     /*left: 0;*/
 }
 
+/*---------------------------------------------------------------*/
 
 
-
-
-
-
-
-
-
-
-/*
-body> section > div:nth-child(1){
-    height: 100vh;
-    !*
-    width: 200px;
-    *!
-    background-color: #000000 ;
+/*Font set eka*/
+body>main>section>section>aside>article>h1{
+    color: #9FFF54;
+    margin-left: 60px;
+    font-size: 90px;
+    display: inline-block;
+}
+body>main>section>section>aside>article>h2{
+    color: #9FFF54;
+    margin-left: 30px;
+    font-size: 50px;
+    display: inline-block;
 }
 
-body> section > div:nth-child(2){
-    height: 100vh;
-    !*
-    width: 200px;
-    *!
-    background-color: #05061A ;
+body>main>section>section>aside>article>h1.Op3{
+    color: #FAA400;
+    font-size: 50px;
+    margin-top: -50px;
+    /*font-family: "Microsoft JhengHei Light";*/
+    font-family: "Bodoni MT Poster Compressed";
 }
 
-
-
-body > header > h1{
-    color: blueviolet;
-}
-
-body > header > nav > menu >li:nth-child(1) > a{
-    color: crimson;
-}
-
-
-.Op1{
-    font-size: 48px;
-    color: #9fff54;
-}
-
-.Op2{
-    font-size: 48px;
-    color: #faa400;
-
-}
-
-.Op3{
-    font-size: 32px;
-    color: #00e8ba;
-}
-
-.Op4{
+body>main>section>section>aside>article>h3{
+    color: #00E8BA;
+    margin-left: 60px;
     font-size: 20px;
-    color: #9eff00;
+    margin-top: 30px;
+    /*font-family: "Microsoft JhengHei Light";*/
+    font-family: 'Lobster', cursive;
+}
+/*------------------------------------------------------*/
+
+/*Profile pic*/
+#BackgroundProfile{
+    position: absolute;
+    margin-right: 60px;
+    top: 80px;
+    right: 0;
+}
+#ProPile{
+    position: absolute;
+    margin-right: 170px;
+    top: 231px;
+    right: 0;
+    border-radius: 10px;
+}
+/*----------------------------------------------------------*/
+
+/*Social Meadia tika*/
+body>main>section>section>aside#SocialMedia>nav:nth-child(1){
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+}
+
+body>main>section>section>aside#SocialMedia>nav:nth-child(1)>div {
+    right: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+body>main>section>section>aside#SocialMedia>nav:nth-child(1):hover{
+    cursor: pointer;
+    color: #d2e907;
+    /*font-size: 80px;*/
+}
+
+/*--------------------------------------------------------*/
+
+/*" Follow Me On These Platforms "*/
+body>main>section>section>aside#SocialMedia>h5{
+    color: #9EFF00;
+    font-size: 18px;
+    position: absolute;
+    bottom: 96px;
+    right: 166px;
+}
+/*-------------------------------------------------------*/
+
+/*Call*/
+body>main>section>section>aside#SocialMedia>nav#call>div {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/*----------------------------------------------------------------Firstpage Over--------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------Second Page start--------------------------------------*/
+
+/*Page topic eka*/
+body>main>section:nth-child(2)>section{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*min-height: 100vh;*/
+    /*background: #23242a;*/
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background: black;
+    border-radius: 0;
+    overflow: hidden;
+    top: -10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s ;
+}
+
+.borderLine{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+/*----2 of Red color borders--*/
+/*
+.borderLine::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #ff2770,#ff2770,#ff2770) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+
 }*/
+
+/*.borderLine::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #ff2770,#ff2770,#ff2770) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}*/
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box form{
+    position: absolute;
+    inset: 4px;
+    background: #000000;
+    padding: 10px 5px;
+    border-radius: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.box form h1{*/
+.AbtMe{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+/*--------Topic over----*/
+
+
+/*photo eka*/
+/*body>main>section:nth-child(2)>section>aside:nth-child(1)>article>figure{*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top:0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    margin: auto;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
