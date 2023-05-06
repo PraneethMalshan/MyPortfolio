@@ -281,6 +281,7 @@ body>main>section>section>aside#SocialMedia>nav#call>div {
     position: fixed;
     bottom: 30px;
     right: 30px;
+    z-index: 1;
 }
 
 /*----------------------------------------------------------------Firstpage Over--------------------------------------*/
@@ -306,7 +307,7 @@ body>main>section:nth-child(2)>section{
     background: black;
     border-radius: 0;
     overflow: hidden;
-    top: -10px;
+    top: -40px;
     right: 0;
     left: 0;
     margin: auto;
@@ -400,32 +401,104 @@ body>main>section:nth-child(2)>section{
     flex-direction: column;
 }
 
-/*.box form h1{*/
-.AbtMe{
+.box form .About{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.box form .Me{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.About{
     color: #FAFF00;
     font-weight: 500;
     font-family:Magneto;
     text-align: center;
+    padding-left: 50px;
     letter-spacing: 0.1em;
 }
+.Me{
+    color: #ffffff;
+    font-weight: 500;
+    font-family:Magneto;
+    padding-right: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
 /*--------Topic over----*/
 
 
 /*photo eka*/
-/*body>main>section:nth-child(2)>section>aside:nth-child(1)>article>figure{*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    top:0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    margin: auto;*/
-/*}*/
+body>main>section:nth-child(2)>section>aside#AboutPic>article>figure>img{
 
+    position: relative;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
 
+/*Hey*/
+body>main>section:nth-child(2)>section>aside#AboutDiscription>article>dd>h1{
 
+    width: 0;
+    height: 0;
+    color: #28A6A6;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Lucida Handwriting";
+    left: 0;
+    top: 0;
+    right: 500px;
+    bottom: 300px;
+    margin: auto;
+}
+/*Chedaya*/
+body>main>section:nth-child(2)>section>aside#AboutDiscription>article:nth-child(1)>dd>pre{
+    width: 0;
+    height: 0;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 30px;
+    /*font-family: Iceberg;*/
+    font-family: "Viner Hand ITC";
+    left: 0;
+    top: 0;
+    right: 400px;
+    bottom: 100px;
+    margin: auto;
+}
 
+/*Download eka*/
+body>main>section:nth-child(2)>section>h2 {
+    height:50px;
+    width: 200px;
+    bottom: 100px;
+    right: 100px;
+    position: absolute;
+    background-color: rgba(0, 102, 255, 1);
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+}
 
+/*Gif eka*/
+body>main>section:nth-child(2)>section>aside#AboutDiscription>article:nth-child(2)>figure>img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 400px;
+    margin: auto;
+}
 
+/*----------------------------------Second page is over----------------------*/
 
 
 
