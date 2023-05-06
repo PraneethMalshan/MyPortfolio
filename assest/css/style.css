@@ -150,7 +150,7 @@ body>main>section>header>div{
 }
 
 body>main>section>header>h1 {
-   display: inline-block;
+    display: inline-block;
     color: white;
     padding-left: 10px;
     font-size: 25px;
@@ -503,8 +503,194 @@ body>main>section:nth-child(2)>section>aside#AboutDiscription>article:nth-child(
 
 
 
+/*-----------------------------------------Third page is start-----------------------------------------*/
+
+/*Meeka daanna oona naa. Mokada uda topic ekata awashya div eka hadala thiinne... Eeka methanata implement karala thiinne...*/
+/*
+body>main>section:nth-child(3).box{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background: black;
+    border-radius: 0;
+    overflow: hidden;
+    top: -40px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+body>main>section:nth-child(3).box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+body>main>section:nth-child(3).box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s ;
+}
+
+body>main>section:nth-child(3).borderLine{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box form{
+    position: absolute;
+    inset: 4px;
+    background: #000000;
+    padding: 10px 5px;
+    border-radius: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+body>main>section:nth-child(3)>div{
+
+    top: -20px;
+
+}
+
+.box form .Education{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
 
 
+.Education{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 50px;
+    letter-spacing: 0.1em;
+}
+/*-------------------------------------------------*/
+
+body>main>section:nth-child(3)>section>div{
+    /*
+    position: relative;
+    */
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: #00FFFF;
+    border-top: 10px solid #FFFFFF ;
+    border-left: 10px solid #FFFFFF ;
+    border-right: 10px solid #FFFFFF ;
+/*    top: 80px;
+    bottom: 0;
+    left: 80px;*/
+
+    left: 40px;
+    right: 0;
+    top:50px;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+body>main>section:nth-child(3)>section>div:nth-child(1){
+    /*
+    left: 1200px;
+    */
+
+    top: 350px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+body>main>section:nth-child(3)>section>div:nth-child(2){
+    /*
+    left: 1200px;
+    */
+
+    top: 280px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+body>main>section:nth-child(3)>section>div:nth-child(3){
+    /*
+    left: 1200px;
+    */
+
+    top: 210px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+body>main>section:nth-child(3)>section>div:nth-child(4){
+    /*
+    left: 1200px;
+    */
+
+    top: 160px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+body>main>section:nth-child(3)>section>div:nth-child(5){
+    /*
+    left: 1200px;
+    */
+
+    top: 90px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+body>main>section:nth-child(3)>section>div:nth-child(6){
+    /*
+    left: 1200px;
+    */
+
+    top: 25px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
 
 
 
