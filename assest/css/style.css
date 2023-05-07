@@ -158,7 +158,6 @@ body>main>section>header>h1 {
     position: absolute;
     margin-top: 25px;
     font-family:"Microsoft JhengHei Light";
-    /*font-family:inherit;*/
 }
 
 /*-------------------------------------------*/
@@ -598,11 +597,9 @@ body>main>section:nth-child(3)>div{
     letter-spacing: 0.1em;
 }
 /*-------------------------------------------------*/
-
+/*Blue color div tika*/
+/*
 body>main>section:nth-child(3)>section>div{
-    /*
-    position: relative;
-    */
     position: relative;
     width: 200px;
     height: 40px;
@@ -610,10 +607,6 @@ body>main>section:nth-child(3)>section>div{
     border-top: 10px solid #FFFFFF ;
     border-left: 10px solid #FFFFFF ;
     border-right: 10px solid #FFFFFF ;
-/*    top: 80px;
-    bottom: 0;
-    left: 80px;*/
-
     left: 40px;
     right: 0;
     top:50px;
@@ -625,9 +618,7 @@ body>main>section:nth-child(3)>section>div{
 
 
 body>main>section:nth-child(3)>section>div:nth-child(1){
-    /*
-    left: 1200px;
-    */
+
 
     top: 350px;
     text-align: center;
@@ -637,66 +628,335 @@ body>main>section:nth-child(3)>section>div:nth-child(1){
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(2){
-    /*
+    !*
     left: 1200px;
-    */
+    *!
 
     top: 280px;
     text-align: center;
-    margin: 0;
+    !*margin: 10px;*!
     padding-bottom: 20px;
 }
 
 
 body>main>section:nth-child(3)>section>div:nth-child(3){
-    /*
+    !*
     left: 1200px;
-    */
+    *!
 
     top: 210px;
     text-align: center;
-    margin: 0;
+    !*margin: 10px;*!
     padding-bottom: 20px;
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(4){
-    /*
+    !*
     left: 1200px;
-    */
+    *!
 
     top: 160px;
     text-align: center;
-    margin: 0;
+    !*margin: 10px;*!
     padding-bottom: 20px;
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(5){
-    /*
+    !*
     left: 1200px;
-    */
+    *!
 
     top: 90px;
     text-align: center;
-    margin: 0;
+    !*margin: 10px;*!
     padding-bottom: 20px;
 }
 
 body>main>section:nth-child(3)>section>div:nth-child(6){
-    /*
+    !*
     left: 1200px;
-    */
+    *!
 
     top: 25px;
     text-align: center;
-    margin: 0;
     padding-bottom: 20px;
+}
+*/
+
+/*White line eka*/
+/*section:nth-child(3)>section>div*/
+/*Underline ekATA Awashya wunoth meeka daanna*/
+/*section:nth-child(3)>section:nth-child(1)>div{
+    width: 1400px;
+    height: 10px;
+    background-color: #D9D9D9;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    margin: auto;
+}*/
+
+/*Under Line white color*/
+section:nth-child(3)>section.Underline>div{
+    width: 1370px;
+    height: 10px;
+    position: absolute;
+    left:41px;
+    right: 0;
+    bottom: 20px;
+    /*margin: auto;*/
+    background-color: #D9D9D9;
+}
+
+/*Orange color Stages*/
+section:nth-child(3)>section#Stages>div:nth-child(1){
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    left: 41px;
+    right: 0;
+    bottom: 30px;
+    background-color: #FFAE5D;
+
+}
+section:nth-child(3)>section#Stages>div:nth-child(1)>h1{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+section:nth-child(3)>section#Stages>div:nth-child(2){
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    left: 271px;
+    right: 0;
+    bottom: 30px;
+    background-color: #FFAE5D;
+
+}
+section:nth-child(3)>section#Stages>div:nth-child(2)>h1{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Stages>div:nth-child(3){
+    width: 220px;
+    height: 180px;
+    position: absolute;
+    left: 501px;
+    right: 0;
+    bottom: 30px;
+    background-color: #FFAE5D;
+}
+section:nth-child(3)>section#Stages>div:nth-child(3)>h1{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Stages>div:nth-child(4){
+    width: 220px;
+    height: 240px;
+    position: absolute;
+    left: 731px;
+    right: 0;
+    bottom: 30px;
+    background-color: #FFAE5D;
+}
+section:nth-child(3)>section#Stages>div:nth-child(4)>h1{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Stages>div:nth-child(5){
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    left: 961px;
+    right: 0;
+    bottom: 30px;
+    background-color: #FFAE5D;
+}
+section:nth-child(3)>section#Stages>div:nth-child(5)>h1{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Stages>div:nth-child(6){
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    left: 1191px;
+    right: 0;
+    bottom: 30px;
+    background-color: #FFAE5D;
+}
+/*---------------------------------------*/
+
+/*White color box */
+section:nth-child(3)>section#Bluebox>div:nth-child(1){
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 41px;
+    bottom: 90px;
+    background-color: #00FFFF;
+    border-top: 10px solid #FFFFFF ;
+    border-left: 10px solid #FFFFFF ;
+    border-right: 10px solid #FFFFFF ;
+}
+section:nth-child(3)>section#Bluebox>div:nth-child(1)>h4 {
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Bluebox>div:nth-child(2){
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 271px;
+    bottom: 150px;
+    background-color: #00FFFF;
+    border-top: 10px solid #FFFFFF ;
+    border-left: 10px solid #FFFFFF ;
+    border-right: 10px solid #FFFFFF ;
+}
+section:nth-child(3)>section#Bluebox>div:nth-child(2)>h4 {
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Bluebox>div:nth-child(3){
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 501px;
+    bottom: 210px;
+    background-color: #00FFFF;
+    border-top: 10px solid #FFFFFF ;
+    border-left: 10px solid #FFFFFF ;
+    border-right: 10px solid #FFFFFF ;
+}
+section:nth-child(3)>section#Bluebox>div:nth-child(3)>h4 {
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Bluebox>div:nth-child(4){
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 731px;
+    bottom: 270px;
+    background-color: #00FFFF;
+    border-top: 10px solid #FFFFFF ;
+    border-left: 10px solid #FFFFFF ;
+    border-right: 10px solid #FFFFFF ;
+}
+section:nth-child(3)>section#Bluebox>div:nth-child(4)>h4 {
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Bluebox>div:nth-child(5){
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 961px;
+    bottom: 330px;
+    background-color: #00FFFF;
+    border-top: 10px solid #FFFFFF ;
+    border-left: 10px solid #FFFFFF ;
+    border-right: 10px solid #FFFFFF ;
+}
+section:nth-child(3)>section#Bluebox>div:nth-child(5)>h4 {
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+section:nth-child(3)>section#Bluebox>div:nth-child(6){
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 1191px;
+    bottom: 390px;
+    background-color: #00FFFF;
+    border-top: 10px solid #FFFFFF ;
+    border-left: 10px solid #FFFFFF ;
+    border-right: 10px solid #FFFFFF ;
 }
 
 
 
 
+/*Orange stages*/
+/*section:nth-child(3)>section:nth-child(2)*/
+/*section:nth-child(3)>section:nth-child(2)#Stages>div {
+    width: 100px;
+    height: 100px;
+    background-color: #FFAE5D;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}*/
+    /*
+    width: 220px;
+    height: 10px;
+   - background-color: #FFAE5D;
+  -  position: absolute;
+  -  top: 0;
+  -  left: 0;
+   - bottom: 0;
+  -  right: 0;
+  -  margin: auto;
+   - display: inline-block;
+    */
+    /*margin-right: 10px;*/
 
 
+
+/*section:nth-child(3)>section*/
+/*#Stages>div:nth-child(1) {
+    !*width: 100px;*!
+    !*height: 77px;*!
+    top: -95px;
+}*/
+/*
+body>main>section:nth-child(3)>section#Stages>div:nth-child(2) {
+    height: 147px;
+    top: -95px;
+}
+body>main>section:nth-child(3)>section#Stages>div:nth-child(3) {
+    height: 217px;
+    top: -95px;
+
+}
+
+
+body>main>section:nth-child(3)>section#Stages>div:nth-child(5) {
+    height: 225px;
+    top: -95px;
+}
+body>main>section:nth-child(3)>section#Stages>div:nth-child(6) {
+    height: 225px;
+    top: -95px;
+}
+
+*/
 
 
 
