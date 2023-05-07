@@ -896,6 +896,235 @@ section:nth-child(3)>section#Bluebox>div:nth-child(6){
     border-left: 10px solid #FFFFFF ;
     border-right: 10px solid #FFFFFF ;
 }
+/*------------------------------------------------------------------------*/
+
+/*Step Layerd Flat*/
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(1){
+    width: 241px;
+    height: 10px;
+    position: absolute;
+    left: 20px;
+    bottom: 160px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(2){
+    width: 240px;
+    height: 10px;
+    position: absolute;
+    left: 251px;
+    bottom: 220px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(3){
+    width: 240px;
+    height: 10px;
+    position: absolute;
+    left: 481px;
+    bottom: 280px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(4){
+    width: 240px;
+    height: 10px;
+    position: absolute;
+    left: 711px;
+    bottom: 340px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(5){
+    width: 240px;
+    height: 10px;
+    position: absolute;
+    left: 941px;
+    bottom: 400px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(6){
+    width: 280px;
+    height: 10px;
+    position: absolute;
+    left: 1171px;
+    bottom: 460px;
+    background-color: #D9D9D9;
+}
+
+/*Arrow eka hadana kotasa*/
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(6):after{
+    content: "";
+    display: inline-block;
+    height: 40px;
+    width: 10px;
+    background-color: #D9D9D9;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+}
+section:nth-child(3)>section#StepLayerdFlat>div:nth-child(6):before{
+    content: "";
+    display: inline-block;
+    height: 40px;
+    width: 10px;
+    background-color: #D9D9D9;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+}
+/*---------------------------------------------------*/
+
+section:nth-child(3)>section#StepLayerdUp>div:nth-child(1){
+    width: 10px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdUp>div:nth-child(2){
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    left: 251px;
+    bottom: 170px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdUp>div:nth-child(3){
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    left: 481px;
+    bottom: 230px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdUp>div:nth-child(4){
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    left: 711px;
+    bottom: 290px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdUp>div:nth-child(5){
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    left: 941px;
+    bottom: 350px;
+    background-color: #D9D9D9;
+}
+section:nth-child(3)>section#StepLayerdUp>div:nth-child(6){
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    left: 1171px;
+    bottom: 410px;
+    background-color: #D9D9D9;
+}
+/*---------------------------------------------------------------------------*/
+
+/*Images of edu*/
+section:nth-child(3)>article#ImagesEdu>img:nth-child(5){
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    bottom: 155px;
+    transform:rotate(15deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(8){
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 290px;
+    bottom: 225px;
+    transform:rotate(15deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(6){
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 540px;
+    bottom: 275px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(7){
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 740px;
+    bottom: 340px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(9){
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 950px;
+    bottom: 420px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(10){
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 1220px;
+    bottom: 480px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(2){
+    width: 180px;
+    height: 130px;
+    position: absolute;
+    left: 1300px;
+    top: 10px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(4){
+    width: 180px;
+    height: 130px;
+    position: absolute;
+    left: 13px;
+    top: 100px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(1){
+    width: 180px;
+    height: 130px;
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(3){
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 750px;
+    top: 130px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(11){
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    top: 160px;
+    transform:rotate(0deg);
+}
+section:nth-child(3)>article#ImagesEdu>img:nth-child(12){
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    left: 300px;
+    top: 70px;
+    transform:rotate(0deg);
+}
+
+
+
+
+
 
 
 
