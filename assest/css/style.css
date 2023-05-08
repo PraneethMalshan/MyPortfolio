@@ -587,7 +587,6 @@ body>main>section:nth-child(3)>div{
     top: 10px;
 }
 
-
 .Education{
     color: #FAFF00;
     font-weight: 500;
@@ -1121,7 +1120,30 @@ section:nth-child(3)>article#ImagesEdu>img:nth-child(12){
     transform:rotate(0deg);
 }
 
+/*-------------------------------------Education page is over----------------------------*/
 
+/*Topic content*/
+body>main>section:nth-child(4)>div.box{
+
+    top: -20px;
+
+}
+
+.box form .Skils{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.Skils{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
+/*-----------------------------------------*/
 
 
 
