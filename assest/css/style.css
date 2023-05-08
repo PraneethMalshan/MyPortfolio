@@ -1144,6 +1144,170 @@ body>main>section:nth-child(4)>div.box{
     letter-spacing: 0.1em;
 }
 /*-----------------------------------------*/
+/*=================================================================================================*/
+
+/*First Main circle*/
+section:nth-child(4)>section.MainCircle_1::before{
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    margin: auto;
+    background-color: #000000;
+    border: 20px solid wheat;
+    border-radius: 100%;
+    border-top: 20px solid red;
+}
+
+section:nth-child(4)>section.MainCircle_1:hover::before{
+    cursor: pointer;
+    transform: rotate(7200deg);
+    transition-property: all;
+    transition-duration: 15s;
+}
+
+/*----------------------------------------------------------------*/
+
+/*Circle Image*/
+section:nth-child(4)>section.MainCircle_1>img:nth-child(1){
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 130px;
+    margin: auto;
+}
+
+/*---------------------------------------------------------------*/
+/*Computer image*/
+section:nth-child(4)>section.MainCircle_1>img:nth-child(2){
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 230px;
+    margin: auto;
+}
+
+/*----------------------------------------------------------------------*/
+/*Languages topic*/
+section:nth-child(4)>section.MainCircle_1>h2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 260px;
+    margin: auto;
+    color: #FFD700;
+    width: max-content;
+    height: max-content;
+    font-size: 50px;
+}
+/*---------------------------------------------------------------------*/
+/*Languages photos*/
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(1){
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 550px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(2){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    bottom:300px;
+    left: 500px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(3){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    bottom:0;
+    left: 150px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(4){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom:110px;
+    left: 340px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(5){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 110px;
+    left: 340px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(6){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom:160px;
+    left: 490px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(7){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    bottom:300px;
+    left: 200px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*section:nth-child(4)>section.MainCircle_1::before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    margin: auto;*/
+/*    background-color: gray;*/
+/*    border: 20px solid white;*/
+/*    border-radius: 100%;*/
+/*    border-top: 20px solid red;*/
+/*}*/
+
+
+
+
+/*=================================================================================================*/
 
 
 

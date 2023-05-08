@@ -1,0 +1,184 @@
+
+/*First Main circle*/
+/*section:nth-child(4)>section.MainCircle_1::before{
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    !*right: 0;*!
+    margin: auto;
+    background-color: #000000;
+    border: 20px solid wheat;
+    border-radius: 100%;
+    border-top: 20px solid red;
+}
+
+section:nth-child(4)>section.MainCircle_1:hover::before{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 2s;
+}*/
+
+/*----------------------------------------------------------------*/
+
+/*Circle Image*/
+/*section:nth-child(4)>section.MainCircle_1>img:nth-child(1)::before{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    !*position: absolute;*!
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+section:nth-child(4)>section.MainCircle_1>img:nth-child(1):hover::before{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 2s;
+}*/
+/*---------------------------------------------------------------*/
+/*Computer image*/
+/*section:nth-child(4)>section.MainCircle_1>img:nth-child(2)::before{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    !*position: absolute;*!
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+section:nth-child(4)>section.MainCircle_1>img:nth-child(2):hover::before{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 2s;
+}*/
+/*----------------------------------------------------------------------*/
+/*Languages topic*/
+/*section:nth-child(4)>section.MainCircle_1>h2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: #FFD700;
+    width: max-content;
+    height: max-content;
+    font-size: 50px;
+}*/
+/*---------------------------------------------------------------------*/
+/*Languages photos*/
+/*section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(1){
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    !*left: 0;*!
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(2){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    bottom:300px;
+    right: 0;
+    left: 350px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(3){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    bottom:0;
+    !*right: 0;*!
+    left: 20px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(4){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    !*top: 0;*!
+    bottom:10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(5){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    !*bottom:10px;*!
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(6){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    !*top: 0;*!
+    bottom:100px;
+    right: 0;
+    left: 350px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(7){
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    bottom:300px;
+    right: 350px;
+    left: 0;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}*/
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*section:nth-child(4)>section.MainCircle_1::before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    margin: auto;*/
+/*    background-color: gray;*/
+/*    border: 20px solid white;*/
+/*    border-radius: 100%;*/
+/*    border-top: 20px solid red;*/
+/*}*/
