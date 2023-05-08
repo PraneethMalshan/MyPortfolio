@@ -1287,6 +1287,137 @@ section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nt
     color: #FFD700;
     font-size: 50px;
 }
+/*===========================First circle is done====================================*/
+
+
+/*-----------------Second Main circle -------------------------------------- */
+
+section:nth-child(4)>section.MainCircle_2::before{
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 0;
+    bottom: 0;
+    /*left: 80px;*/
+    right: 80px;
+    margin: auto;
+    background-color: #000000;
+    border: 20px solid wheat;
+    border-radius: 100%;
+    border-top: 20px solid red;
+}
+
+section:nth-child(4)>section.MainCircle_2:hover::before{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+/*2nd Circle Image*/
+section:nth-child(4)>section.MainCircle_2>img:nth-child(1){
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 120px;
+    margin: auto;
+}
+
+/*Computer image*/
+section:nth-child(4)>section.MainCircle_2>img:nth-child(2){
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 220px;
+    margin: auto;
+}
+
+/*Languages topic*/
+section:nth-child(4)>section.MainCircle_2>h2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 325px;
+    margin: auto;
+    color: #FFD700;
+    width: max-content;
+    height: max-content;
+    font-size: 50px;
+}
+
+section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:nth-child(1){
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 512px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:nth-child(2){
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: 115px;
+    /*bottom: 0;*/
+    right: 325px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:nth-child(3){
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: 0;
+    bottom: 0;
+    right: 100px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:nth-child(4){
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    /*top: 0;*/
+    bottom: 115px;
+    right: 325px;
+    margin: auto;
+    color: #FFD700;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------------------------------------------------------------------------------*/
 
 
