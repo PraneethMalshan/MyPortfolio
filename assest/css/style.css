@@ -1146,7 +1146,7 @@ body>main>section:nth-child(4)>div.box{
 /*-----------------------------------------*/
 /*=================================================================================================*/
 
-/*First Main circle*/
+/*=================================================First Main circle===================================================*/
 section:nth-child(4)>section.MainCircle_1::before{
     content: "";
     position: absolute;
@@ -1287,10 +1287,10 @@ section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nt
     color: #FFD700;
     font-size: 50px;
 }
-/*===========================First circle is done====================================*/
+/*=======================================================First circle is done================================================*/
 
 
-/*-----------------Second Main circle -------------------------------------- */
+/*=======================================================Second Main circle -====================================================== */
 
 section:nth-child(4)>section.MainCircle_2::before{
     content: "";
@@ -1352,6 +1352,8 @@ section:nth-child(4)>section.MainCircle_2>h2{
     font-size: 50px;
 }
 
+/*Tools photos*/
+
 section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:nth-child(1){
     position: absolute;
     width: 120px;
@@ -1398,6 +1400,7 @@ section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:n
 }
 
 
+/*=======================================================Second circle is done================================================*/
 
 
 
