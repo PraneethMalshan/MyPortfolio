@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        body{
+            background-color:#eeeeee ;
+        }
+
+        main{
+            width: 700px;
+            height: 400px;
+            border: 6px solid #ff253a;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        main>section{
+            width: 600%;
+            height: 100%;
+            display: flex;
+            animation-name: case1;
+            animation-direction: alternate;
+            animation-duration: 8s;
+            animation-iteration-count: 8;
+        }
+
+        main>section>div{
+            width: 100%;
+        }
+
+        main>section>div:nth-child(1){
+            background-image: url("assets/images/images (25).jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        main>section>div:nth-child(2){
+            background-image: url("assets/images/images (24).jpeg");
+            background-size: cover;
+            background-position: center;
+
+        }
+        main>section>div:nth-child(3){
+            background-image: url("assets/images/images (23).jpeg");
+            background-size: cover;
+            /*background-position: center;*/
+
+        }
+        main>section>div:nth-child(4){
+            background-image: url("assets/images/images (22).jpeg");
+            background-size: cover;
+            /*background-position: center;*/
+
+        }
+        main>section>div:nth-child(5){
+            background-image: url("assets/images/images (21).jpeg");
+            background-size: cover;
+            /*background-position: center;*/
+
+        }
+
+        @keyframes case1 {
+            0%{
+                transform: translateX(0);
+            }
+            20%{
+                transform: translateX(-20%);
+            }
+            40%{
+                transform: translateX(-40%);
+            }
+            60%{
+                transform: translateX(-60%);
+            }
+            80%{
+                transform: translateX(-80%);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+</body>
+</html>
