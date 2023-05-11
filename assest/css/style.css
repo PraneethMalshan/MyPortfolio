@@ -1611,6 +1611,127 @@ body>main>section:nth-child(6)>section.Rotation>div.Round>div.side{
 
 /*------------------------------Project page is over----------------------------------*/
 
+/*-----------------Assingnment page------------------------------*/
+/*Topic*/
+body>main>section:nth-child(7)>div.box{
+
+    top: -20px;
+
+}
+
+.box form .Assignments{
+    position: absolute;
+    left: -70px;
+    top: 10px;
+}
+
+.Assignments{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
+
+/*Center photo*/
+
+.AsimentCenterPho{
+    width: 1200px;
+    height: 550px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+
+/*body>main>section:nth-child(7)>article:nth-child(1)>figure>img{*/
+/*body>main>section:nth-child(7)>article:nth-child(1)>*/
+
+
+
+
+
+/*----------------------------------Photos page----------------------------*/
+/*Topic*/
+body>main>section:nth-child(8)>div.box{
+
+    top: -20px;
+
+}
+
+.box form .Photos{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.Photos{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
+
+/*----------------------------------------*/
+/*Add photos*/
+
+body>main>section:nth-child(8)>section{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110px;
+    bottom: 0;
+    margin: auto;
+    width: 1200px;
+    height: 550px;
+    border: 2px solid wheat;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(6,1fr);
+
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;
+}
+
+body>main>section:nth-child(8)>section>div{
+    border: 2px solid yellow;
+}
+
+body>main>section:nth-child(8)>section>div:nth-child(1){
+    background: url("/assest/image/png/7Page/IMG_20201108_065344.jpg");
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
