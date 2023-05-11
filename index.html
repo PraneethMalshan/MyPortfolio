@@ -367,44 +367,31 @@ Meeka Athule thamayi website ekee ahata peena siyaluma deewal tika siyaluma cont
                 </form>
             </div>
 
-            <article>
-                <nav>
-                    <img src="assest/image/png/5Page/Screenshot%20(53).png " width="150" height="150" alt="">
-                    <img src="assest/image/png/5Page/images%20(7)%20(1).png " width="150" height="150" alt="">
-                </nav>
+            <section class="Rotation" id="Rotation">
 
-                <nav>
-                    <img src="assest/image/png/5Page/Screenshot%20(53).png " width="150" height="150" alt="">
-                    <img src="assest/image/png/5Page/Screenshot%20(8).png " width="150" height="150" alt="">
-                </nav>
-                <nav>
-                    <img src="assest/image/png/5Page/Screenshot%20(53).png " width="150" height="150" alt="">
-                    <img src="assest/image/png/5Page/Screenshot%20(10).png " width="150" height="150" alt="">
-                </nav>
+                <div class="Round">
+                    <div class="side s1"></div>
+                    <div class="side s2"></div>
+                    <div class="side s3"></div>
+                    <div class="side s4"></div>
+                    <div class="side s5"></div>
+                    <div class="side s6"></div>
+                </div>
 
-                <nav>
-                    <img src="assest/image/png/5Page/Screenshot%20(53).png " width="150" height="150" alt="">
-                    <img src="assest/image/png/5Page/Screenshot%20(12).png " width="150" height="150" alt="">
-                </nav>
-            </article>
+                <script type="text/javascript">
+                    let Round = document.querySelector('.Round'),
+                        sides = document.querySelectorAll('.side');
 
-            <nav></nav>
-                <section>
-                    <nav>
-                        <img src="assest/image/png/5Page/Screenshot%20(53).png " width="150" height="150" alt="">
-                        <img src="assest/image/png/5Page/images%20(7)%20(1).png " width="150" height="150" alt="">
-                    </nav>
+                    sides.forEach((side,i) => {
+                        side.addEventListener('click', () => {
+                            Round.style.transform = `rotatex(-15deg)
+                rotatey(-${i*60}deg)`;
+                        });
+                    });
+                </script>
 
-                    <nav>
-                        <img src="assest/image/png/5Page/Screenshot%20(53).png " width="150" height="150" alt="">
-                        <img src="assest/image/png/5Page/images%20(7)%20(1).png " width="150" height="150" alt="">
-                    </nav>
+            </section>
 
-                    <nav>
-                        <img src="assest/image/png/5Page/Screenshot%20(53).png " width="150" height="150" alt="">
-                        <img src="assest/image/png/5Page/images%20(7)%20(1).png " width="150" height="150" alt="">
-                    </nav>
-                </section>
         </section>
 
 

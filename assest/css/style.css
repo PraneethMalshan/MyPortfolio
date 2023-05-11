@@ -1535,6 +1535,81 @@ body>main>section:nth-child(6)>div.box{
     padding-left: 80px;
     letter-spacing: 0.1em;
 }
+/*-----------------------------------------*/
+
+/*Add Animation photos*/
+body>main>section:nth-child(6){
+   /* margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
+}
+
+body>main>section:nth-child(6)>section.Rotation{
+    width: 900px;
+    height: 550px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(252, 252, 252, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: perspective(800px);
+
+}
+
+body>main>section:nth-child(6)>section.Rotation>div.Round{
+    width: 200px;
+    height: 170px;
+    background-color: transparent;
+    transform-style: preserve-3d;
+    transform: rotateX(-15deg) rotateY(0deg);
+    transition: 1s transform;
+}
+
+body>main>section:nth-child(6)>section.Rotation>div.Round>div.side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.s1{
+    background-image: url("../image/png/5Page/Project-1.png");
+    transform: rotateY(0deg) translateZ(250px);
+}
+.s2{
+    background-image: url("../image/png/5Page/Project-2.png");
+    transform: rotateY(60deg) translateZ(250px);
+}
+
+.s3{
+    background-image: url("../image/png/5Page/Project-3.png");
+    transform: rotateY(120deg) translateZ(250px);
+}
+.s4{
+    background-image: url("../image/png/5Page/Project-4.png");
+    transform: rotateY(180deg) translateZ(250px);
+}
+.s5{
+    background-image: url("../image/png/5Page/Project-5.png");
+    transform: rotateY(240deg) translateZ(250px);
+}
+.s6{
+    background-image: url("../image/png/5Page/Project-6.png");
+    transform: rotateY(300deg) translateZ(250px);
+}
+
+/*------------------------------Project page is over----------------------------------*/
 
 
 
