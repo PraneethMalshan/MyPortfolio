@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_03/assets/images/images (21).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_03/assets/images/images (22).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_03/assets/images/images (23).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_03/assets/images/images (24).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_03/assets/images/images (25).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/4PAge/certificates/Certificate_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/4PAge/certificates/WhatsApp Image 2023-05-10 at 22.04.01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/4PAge/certificates/WhatsApp Image 2023-05-10 at 22.04.02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/5Page/Project-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/5Page/Project-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/5Page/Project-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/5Page/Project-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/5Page/Project-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/5Page/Project-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_04/assets/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_04/assets/images/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_04/assets/images/road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_04/assets/images/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_04/assets/images/wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_04/assets/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/animations/case_04/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/5Page/Screenshot (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/5Page/Screenshot (12).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/5Page/Screenshot (53).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/5Page/Screenshot (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/5Page/download (6) (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/5Page/images (7) (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/transition/case_01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/transition/case_01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +56,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/animations/case_03/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/image/png/5Page" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\5Page" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\animations\case_04\assets\images" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\animations\case_04\assets" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\4PAge\certificates" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\animations\case_03\assets\images" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\4PAge" />
     </key>
   </component>
   <component name="RunManager">
@@ -68,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683432088996</updated>
       <workItem from="1683432091652" duration="25516000" />
-      <workItem from="1683481311182" duration="39114000" />
+      <workItem from="1683481311182" duration="68979000" />
     </task>
     <servers />
   </component>

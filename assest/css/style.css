@@ -1403,14 +1403,138 @@ section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:n
 /*=======================================================Second circle is done================================================*/
 
 
+section:nth-child(5)>div.box{
+
+    top: -20px;
+
+}
+
+.box form .My{
+    position: absolute;
+    left: 30px;
+    top: -10px;
+}
+.box form .Achievements{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+
+.My{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
+.Achievements{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
+/*-------------------------------------*/
+
+/*???????????????????????????????????????????????????????????*/
+
+/*body>main >section:nth-child(5){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}*/
+/*
+body>main >section:nth-child(5)>section{
+    position: relative;
+    display: flex;
+    width: 900px;
+    height: 420px;
+    justify-content: center;
+}
+
+body>main > section:nth-child(5)>section>div{
+    display: flex;
+    align-items: center;
+}
+
+body>main > section:nth-child(5) > section > div > button {
+    margin: 55px;
+    background: none;
+    border: none;
+}
+
+body>main > section:nth-child(5) > section > div > button > i {
+    font-size: 3em;
+    color: #3A86FF;
+}
+
+body>main > section:nth-child(5) > section>div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+body>main > section:nth-child(5) > section > div:nth-child(2) :hover {
+    box-shadow: 0 4px 76px 2px #3A86FF;
+}
+
+
+body>main > section:nth-child(5) > section > div:nth-child(2) > div {
+    background-image: url("../image/png/4PAge/certificates/WhatsApp Image 2023-05-10 at 22.04.01.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
+
+}
+
+body>main > section:nth-child(5) > section > div:nth-child(2) > div:nth-child(1) {
+    width: 360px;
+    height: 250px;
+    margin-right: -230px;
+}
+
+body>main > section:nth-child(5) > section > div:nth-child(2) > div:nth-child(2) {
+    width: 550px;
+    height: 420px;
+}
+
+body>main > section:nth-child(5) > section > div:nth-child(2) > div:nth-child(3) {
+    z-index: -1;
+    width: 360px;
+    height: 250px;
+    margin-left: -230px;
+}*/
+/*???????????????????????????????????????????????????????????*/
 
 
 
+/*-----------------------------Projects-----------------------------------------*/
 
+/*Topic*/
+body>main>section:nth-child(6)>div.box{
 
+    top: -20px;
 
+}
 
+.box form .Projects{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
 
+.Projects{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
 
 
 
