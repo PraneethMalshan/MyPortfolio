@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assest/image/png/AchievementPage/certificate-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/AchievementPage/certificate-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/AchievementPage/certificate-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/AchievementPage/certificate-4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/1646754119267.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/1646754119267.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG-20201208-WA0044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG-20201208-WA0044.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG-20220521-WA0052.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG-20220521-WA0052.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG-20220821-WA0081.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG-20220821-WA0081.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG-20220901-WA0029.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG-20220901-WA0029.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG-20220910-WA0019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG-20220910-WA0019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG_20200712_164818.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG_20200712_164818.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG_20201108_065344.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG_20201108_065344.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG_20210114_143702.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG_20210114_143702.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG_20220114_213040.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG_20220114_213040.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG_20220115_093530.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG_20220115_093530.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/7Page/IMG_20220605_095328.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/7Page/IMG_20220605_095328.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +50,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/image/png/5Page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/image/png/AchievementPage" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\AchievementPage" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\5Page" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\animations\case_04\assets\images" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\animations\case_04\assets" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\4PAge\certificates" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\animations\case_03\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -67,7 +87,9 @@
       <option name="presentableId" value="Default" />
       <updated>1683432088996</updated>
       <workItem from="1683432091652" duration="25516000" />
-      <workItem from="1683481311182" duration="87629000" />
+      <workItem from="1683481311182" duration="88193000" />
+      <workItem from="1683841424847" duration="24000" />
+      <workItem from="1683862803646" duration="30747000" />
     </task>
     <servers />
   </component>
