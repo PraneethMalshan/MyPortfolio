@@ -1965,17 +1965,320 @@ body>main>section:nth-child(8)>section>div:nth-child(12){
 
 /*-------------------------------Over Photos page-----------------------------------*/
 
+/*-------------------------------Start Activities page---------------------------------*/
+
+body>main>section:nth-child(9)>div.box{
+
+    top: -20px;
+
+}
+
+.box form .Activities{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.Activities{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
+
+/*-------------------------------------------*/
+
+body>main>section:nth-child(9)>article>div{
+
+    position: absolute;
+    top: -100px;
+    bottom: 0;
+    left: 250px;
+    /*right: 0;*/
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+body>main>section:nth-child(9)>article>div>img{
+    padding-left: 120px;
+}
+
+body>main>section:nth-child(9)>article>ul{
+    color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    right: 0;
+    left: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /*padding-left: 120px;*/
+
+}
+
+body>main>section:nth-child(9)>article>ul>h3{
+    padding: 100px;
+}
+
+
+/*----------------------------Contact page-------------------------------------*/
+
+body>main>section:nth-child(10)>div.box{
+
+    top: -20px;
+
+}
+
+.box form .Contact{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+
+.Contact{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 80px;
+    letter-spacing: 0.1em;
+}
+/*-----------------------------------------------*/
+/*--------------------Contact Info---------------------------*/
+
+body>main>section:nth-child(10)>aside.details>div{
+    width: 550px;
+    height: 350px;
+    position: relative;
+    left: 40px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 5%;
+}
+
+body>main>section:nth-child(10)>aside.details>address.Address>p{
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    color: #00FFFF;
+    font-size: 40px;
+    font-family: STFangsong;
+}
+
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div>img:nth-child(1){
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+}
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div>dt{
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 210px;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>img:nth-child(1){
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    right: 0;
+    top: 260px;
+    bottom: 0;
+}
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>a#Email{
+
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 265px;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 30px;
+
+}
+
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>img#con{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    right: 0;
+    top: 320px;
+    bottom: 0;
+}
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>a#pNum{
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 325px;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div#addresss>img {
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 40px;
+    right: 0;
+    top: 380px;
+    bottom: 0;
+}
+
+body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div#addresss>dt {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 390px;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+body>main>section:nth-child(10)>aside.details>nav.ConPageSocial{
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+    left: 90px;
+    /*top: 300px;*/
+}
+body>main>section:nth-child(10)>aside.details>nav.ConPageSocial>div {
+    right: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+body>main>section:nth-child(10)>aside.details>h5#fmotp {
+    color: #9EFF00;
+    position: absolute;
+    right: 0;
+    left: 190px;
+    bottom: 100px;
+}
+
+
+
+body>main>section:nth-child(10)>aside.SendDetails>div{
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    /*left: 0;*/
+    right: 50px ;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    opacity: 4%;
+}
+
+
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName{
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    opacity: 25%;
+    right: 100px;
+    bottom: 300px;
+}
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName>dt {
+    font-size: 20px;
+   padding-top: 10px;
+    padding-left: 10px;
+    color: #000000;
+}
+/*--------------------------------------------------------------------*/
+
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail{
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    opacity: 25%;
+    right: 100px;
+    bottom: 150px;
+}
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail>dt {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #000000;
+}
+/*--------------------------------------------------------------------*/
+
+
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapePno{
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    opacity: 25%;
+    right: 100px;
+    bottom: 25px;
+}
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapePno>dt {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #000000;
+}
+
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage{
+    width: 450px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    opacity: 25%;
+    right: 100px;
+    bottom: -150px;
+}
+body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage>dt {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #000000;
+}
 
 
 
 
+/*body>main>section>header>nav>ul{*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 10px;*/
+/*}*/
+/*body>main>section>header>nav>ul>li>a{*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
 
-
-
-
-
-
-
+/*body>main>section>header>nav>ul>li{*/
+/*    font-size: 20px;*/
+/*    margin-left: 10px;*/
+/*    margin-right: 16px;*/
+/*    font-family: 'Colonna MT', cursive ;*/
+/*    !*background-color: rgba(255, 255, 255, 0.27);*!*/
+/*    !*border-radius: 20px;*!*/
+/*    display: inline-block;*/
+/*}*/
 
 
 
