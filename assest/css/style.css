@@ -2177,17 +2177,18 @@ body>main>section:nth-child(10)>aside.details>h5#fmotp {
 
 body>main>section:nth-child(10)>aside.SendDetails>div{
     width: 550px;
-    height: 450px;
+    height: 470px;
     position: absolute;
     /*left: 0;*/
     right: 50px ;
     bottom: 0;
-    top: 0;
+    top: 40px;
     margin: auto;
     background-color: #FFFFFF;
     border-radius: 30px;
     opacity: 4%;
 }
+
 
 
 body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName{
@@ -2197,7 +2198,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName{
     background-color: #FFFFFF;
     opacity: 25%;
     right: 100px;
-    bottom: 300px;
+    bottom: 370px;
 }
 body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName>dt {
     font-size: 20px;
@@ -2214,7 +2215,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail{
     background-color: #FFFFFF;
     opacity: 25%;
     right: 100px;
-    bottom: 150px;
+    bottom: 210px;
 }
 body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail>dt {
     font-size: 20px;
@@ -2232,7 +2233,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapePno{
     background-color: #FFFFFF;
     opacity: 25%;
     right: 100px;
-    bottom: 25px;
+    bottom: 45px;
 }
 body>main>section:nth-child(10)>aside.SendDetails>div.ShapePno>dt {
     font-size: 20px;
@@ -2248,7 +2249,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage{
     background-color: #FFFFFF;
     opacity: 25%;
     right: 100px;
-    bottom: -150px;
+    bottom: -180px;
 }
 body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage>dt {
     font-size: 20px;
@@ -2256,6 +2257,50 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage>dt {
     padding-left: 10px;
     color: #000000;
 }
+
+
+/*body>main>section:nth-child(10)>aside.SendDetails>div.SendButton {*/
+body>main>section:nth-child(10)>div.SendButton{
+
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -1100px;
+    bottom: -410px;
+    margin: auto;
+    background-color: #00FF7F;
+    border-radius: 30px;
+}
+body>main>section:nth-child(10)>div.SendButton>h3{
+    font-size: 30px;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*padding-bottom : 110px;*/
+    padding-left: 10px;
+}
+
+/*body>main>section:nth-child(10)>div.SendButton>nav*/
+#sendArrow{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: -390px;
+    left: 0;
+    right: -1150px;
+    margin: auto;
+}
+
+
+
+
+
+
 
 
 
