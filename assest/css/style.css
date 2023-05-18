@@ -1416,294 +1416,10 @@ section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:n
 /*=======================================================Second circle is done================================================*/
 
 
-section:nth-child(5)>div.box{
-
-    top: -20px;
-
-}
-
-.box form .My{
-    position: absolute;
-    left: 30px;
-    top: -10px;
-}
-.box form .Achievements{
-    position: absolute;
-    right: 0;
-    bottom: -10px;
-}
-
-.My{
-    color: #FAFF00;
-    font-weight: 500;
-    font-family:Magneto;
-    text-align: center;
-    padding-left: 80px;
-    letter-spacing: 0.1em;
-}
-.Achievements{
-    color: #FFFFFF;
-    font-weight: 500;
-    font-family:Magneto;
-    text-align: center;
-    padding-left: 80px;
-    letter-spacing: 0.1em;
-}
-/*-------------------------------------*/
-section:nth-child(5)>section>div:last-child{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-section:nth-child(5)>section>div:last-child>section{
-    position: relative;
-    display: flex;
-    width: 900px;
-    height: 420px;
-    justify-content: center;
-}
-
-section:nth-child(5)>section>div:last-child>section>div{
-    display: flex;
-    align-items: center;
-}
-
-section:nth-child(5)>section>div:last-child > section > div > button{
-    margin: 55px;
-    background: none;
-    border: none;
-}
-
-section:nth-child(5)>section>div:last-child > section > div > button > i{
-    font-size: 3em;
-    color: #3A86FF;
-}
-
-section:nth-child(5)>section>div:last-child > section > div:nth-child(2){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-section:nth-child(5)>section>div:last-child > section > div:nth-child(2):hover{
-    box-shadow: 0 4px 76px 2px #3A86FF;
-}
-
-section:nth-child(5)>section>div:last-child > section > div:nth-child(2) >div{
-    background-image: url("../image/png/AchievementPage/certificate-3.jpg");
-    background-size: cover;
-    background-position: center;
-    box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
-}
-
-/*---------------------------------------*/
-section:nth-child(5)>section>div:last-child > section > div:nth-child(2) > div:nth-child(1){
-    width: 360px;
-    height: 250px;
-    margin-right: -230px;
-}
-
-section:nth-child(5)>section>div:last-child > section > div:nth-child(2) > div:nth-child(2){
-    width: 550px;
-    height: 420px;
-}
-
-section:nth-child(5)>section>div:last-child > section > div:nth-child(2) > div:nth-child(3){
-    z-index: -2;
-    width: 360px;
-    height: 250px;
-    margin-left: -230px;
-}
-
-
-
-
-
-
-
-/*
-
-section:nth-child(5)>section{
-    padding: 0;
-    !*margin: 0;*!
-    width: 90%;
-    height: 70vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
-
-section:nth-child(5)>section>div.slider-container{
-    width: 90%;
-    height: 60vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    background: linear-gradient(to right, rgb(255,65,108), rgb(45, 8, 8));
-
-}
-
-section:nth-child(5)>section>div.slider-container>div.image-slider{
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .7s;
-}
-
-section:nth-child(5)>section>div.slider-container>div.image-slider>div.slide-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 30px 0 30px;
-}
-
-section:nth-child(5)>section>div.slider-container>div.image-slider>div.slide-div>img.img{
-    position: relative;
-    width: 240px;
-    height: 370px;
-    transition: .5s;
-    filter: saturate(100%);
-}
-
-section:nth-child(5)>section>div.slider-container>div.image-slider>div.slide-div>a.button {
-    position: absolute;
-    width: 240px;
-    height: 370px;
-    transition: .5s;
-    background-color: rgba(0, 0, 0, .4);
-}
-
-section:nth-child(5)>section>div.slider-container>div.image-slider>div.slide-div>a.button:hover{
-    background-color: rgba(0, 0, 0, .2);
-}
-
-#slider-span1:target ~ .image-slider #img1,
-#slider-span1:target ~ .image-slider #button1{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(80%);
-}
-
-#slider-span2:target ~ .image-slider #img2,
-#slider-span2:target ~ .image-slider #button2{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(80%);
-}
-#slider-span3:target ~ .image-slider #img3,
-#slider-span3:target ~ .image-slider #button3{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(80%);
-}
-#slider-span4:target ~ .image-slider #img4,
-#slider-span4:target ~ .image-slider #button4{
-    width: 380px;
-    height: 585px;
-    background-color: transparent;
-    filter: saturate(80%);
-}
-
-#slider-span1:target ~ .image-slider {left: -30%}
-#slider-span2:target ~ .image-slider {left: -20%}
-#slider-span3:target ~ .image-slider {left: -10%}
-#slider-span4:target ~ .image-slider {left: -02%}
-*/
-
-/*???????????????????????????????????????????????????????????*/
-
-/*body>main >section:nth-child(5){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}*/
-/*
-body>main >section:nth-child(5)>section{
-    position: relative;
-    display: flex;
-    width: 900px;
-    height: 420px;
-    justify-content: center;
-}
-
-body>main > section:nth-child(5)>section>div{
-    display: flex;
-    align-items: center;
-}
-
-body>main > section:nth-child(5) > section > div > button {
-    margin: 55px;
-    background: none;
-    border: none;
-}
-
-body>main > section:nth-child(5) > section > div > button > i {
-    font-size: 3em;
-    color: #3A86FF;
-}
-
-body>main > section:nth-child(5) > section>div:nth-child(2) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-body>main > section:nth-child(5) > section > div:nth-child(2) :hover {
-    box-shadow: 0 4px 76px 2px #3A86FF;
-}
-
-
-body>main > section:nth-child(5) > section > div:nth-child(2) > div {
-    background-image: url("../image/png/4PAge/certificates/WhatsApp Image 2023-05-10 at 22.04.01.jpg");
-    background-size: cover;
-    background-position: center;
-    box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
-
-}
-
-body>main > section:nth-child(5) > section > div:nth-child(2) > div:nth-child(1) {
-    width: 360px;
-    height: 250px;
-    margin-right: -230px;
-}
-
-body>main > section:nth-child(5) > section > div:nth-child(2) > div:nth-child(2) {
-    width: 550px;
-    height: 420px;
-}
-
-body>main > section:nth-child(5) > section > div:nth-child(2) > div:nth-child(3) {
-    z-index: -1;
-    width: 360px;
-    height: 250px;
-    margin-left: -230px;
-}*/
-/*???????????????????????????????????????????????????????????*/
-
-
-
 /*-----------------------------Projects-----------------------------------------*/
 
 /*Topic*/
-body>main>section:nth-child(6)>div.box{
+body>main>section:nth-child(5)>div.box{
 
     top: -20px;
 
@@ -1726,13 +1442,13 @@ body>main>section:nth-child(6)>div.box{
 /*-----------------------------------------*/
 
 /*Add Animation photos*/
-body>main>section:nth-child(6){
+body>main>section:nth-child(5){
    /* margin: 0;
     padding: 0;*/
     box-sizing: border-box;
 }
 
-body>main>section:nth-child(6)>section.Rotation{
+body>main>section:nth-child(5)>section.Rotation{
     width: 900px;
     height: 550px;
     top: 0;
@@ -1749,7 +1465,7 @@ body>main>section:nth-child(6)>section.Rotation{
 
 }
 
-body>main>section:nth-child(6)>section.Rotation>div.Round{
+body>main>section:nth-child(5)>section.Rotation>div.Round{
     width: 200px;
     height: 170px;
     background-color: transparent;
@@ -1758,7 +1474,7 @@ body>main>section:nth-child(6)>section.Rotation>div.Round{
     transition: 1s transform;
 }
 
-body>main>section:nth-child(6)>section.Rotation>div.Round>div.side{
+body>main>section:nth-child(5)>section.Rotation>div.Round>div.side{
     position: absolute;
     top: 0;
     left: 0;
@@ -1801,7 +1517,7 @@ body>main>section:nth-child(6)>section.Rotation>div.Round>div.side{
 
 /*-----------------Assingnment page------------------------------*/
 /*Topic*/
-body>main>section:nth-child(7)>div.box{
+body>main>section:nth-child(6)>div.box{
 
     top: -20px;
 
@@ -1847,7 +1563,7 @@ body>main>section:nth-child(7)>div.box{
 
 /*----------------------------------Photos page----------------------------*/
 /*Topic*/
-body>main>section:nth-child(8)>div.box{
+body>main>section:nth-child(7)>div.box{
 
     top: -20px;
 
@@ -1871,7 +1587,7 @@ body>main>section:nth-child(8)>div.box{
 /*----------------------------------------*/
 /*Add photos*/
 
-body>main>section:nth-child(8)>section{
+body>main>section:nth-child(7)>section{
     position: relative;
     left: 0;
     right: 0;
@@ -1889,18 +1605,18 @@ body>main>section:nth-child(8)>section{
     grid-column-gap: 3px;
 }
 
-body>main>section:nth-child(8)>section>div{
+body>main>section:nth-child(7)>section>div{
     border: 2px solid yellow;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(1){
+body>main>section:nth-child(7)>section>div:nth-child(1){
     background: url("7Page/IMG_20201108_065344.jpg");
     grid-column: 1/3;
     grid-row: 1/2;
     background-size: cover;
     background-position: center;
 }
-body>main>section:nth-child(8)>section>div:nth-child(2){
+body>main>section:nth-child(7)>section>div:nth-child(2){
     background: url("7Page/IMG_20220114_213040.jpg");
     background-size: cover;
     background-position: center;
@@ -1910,7 +1626,7 @@ body>main>section:nth-child(8)>section>div:nth-child(3){
     background-size: cover;
     background-position: center;
 }
-body>main>section:nth-child(8)>section>div:nth-child(4){
+body>main>section:nth-child(7)>section>div:nth-child(4){
     background: url("7Page/IMG-20220910-WA0019.jpg");
     grid-column: 5/7;
     grid-row: 1/2;
@@ -1918,13 +1634,13 @@ body>main>section:nth-child(8)>section>div:nth-child(4){
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(5){
+body>main>section:nth-child(7)>section>div:nth-child(5){
     background: url("7Page/IMG_20210114_143702.jpg");
     background-size: cover;
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(6){
+body>main>section:nth-child(7)>section>div:nth-child(6){
     background: url("7Page/1646754119267.jpg");
     grid-column: 2/4;
     grid-row: 2/3;
@@ -1932,7 +1648,7 @@ body>main>section:nth-child(8)>section>div:nth-child(6){
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(7){
+body>main>section:nth-child(7)>section>div:nth-child(7){
     background: url("7Page/IMG_20220605_095328.jpg");
     grid-column: 4/6;
     grid-row: 2/3;
@@ -1940,13 +1656,13 @@ body>main>section:nth-child(8)>section>div:nth-child(7){
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(8){
+body>main>section:nth-child(7)>section>div:nth-child(8){
     background: url("7Page/IMG-20201208-WA0044.jpg");
     background-size: cover;
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(9){
+body>main>section:nth-child(7)>section>div:nth-child(9){
     background: url("7Page/IMG-20220821-WA0081.jpg");
 
     grid-column: 1/3;
@@ -1955,20 +1671,20 @@ body>main>section:nth-child(8)>section>div:nth-child(9){
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(10){
+body>main>section:nth-child(7)>section>div:nth-child(10){
     background: url("7Page/IMG-20220521-WA0052.jpg");
 
     background-size: cover;
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(11){
+body>main>section:nth-child(7)>section>div:nth-child(11){
     background: url("7Page/IMG_20220115_093530.jpg");
     background-size: cover;
     background-position: center;
 }
 
-body>main>section:nth-child(8)>section>div:nth-child(12){
+body>main>section:nth-child(7)>section>div:nth-child(12){
     background: url("7Page/IMG-20220901-WA0029.jpg");
     grid-column: 5/7;
     grid-row: 3/4;
@@ -1980,7 +1696,7 @@ body>main>section:nth-child(8)>section>div:nth-child(12){
 
 /*-------------------------------Start Activities page---------------------------------*/
 
-body>main>section:nth-child(9)>div.box{
+body>main>section:nth-child(8)>div.box{
 
     top: -20px;
 
@@ -2003,7 +1719,7 @@ body>main>section:nth-child(9)>div.box{
 
 /*-------------------------------------------*/
 
-body>main>section:nth-child(9)>article>div{
+body>main>section:nth-child(8)>article>div{
 
     position: absolute;
     top: -100px;
@@ -2016,11 +1732,11 @@ body>main>section:nth-child(9)>article>div{
     /*justify-content: center;*/
 }
 
-body>main>section:nth-child(9)>article>div>img{
+body>main>section:nth-child(8)>article>div>img{
     padding-left: 120px;
 }
 
-body>main>section:nth-child(9)>article>ul{
+body>main>section:nth-child(8)>article>ul{
     color: #FFFFFF;
     position: absolute;
     top: 200px;
@@ -2034,14 +1750,14 @@ body>main>section:nth-child(9)>article>ul{
 
 }
 
-body>main>section:nth-child(9)>article>ul>h3{
+body>main>section:nth-child(8)>article>ul>h3{
     padding: 100px;
 }
 
 
 /*----------------------------Contact page-------------------------------------*/
 
-body>main>section:nth-child(10)>div.box{
+body>main>section:nth-child(9)>div.box{
 
     top: -20px;
 
@@ -2064,7 +1780,7 @@ body>main>section:nth-child(10)>div.box{
 /*-----------------------------------------------*/
 /*--------------------Contact Info---------------------------*/
 
-body>main>section:nth-child(10)>aside.details>div{
+body>main>section:nth-child(9)>aside.details>div{
     width: 550px;
     height: 350px;
     position: relative;
@@ -2074,7 +1790,7 @@ body>main>section:nth-child(10)>aside.details>div{
     opacity: 5%;
 }
 
-body>main>section:nth-child(10)>aside.details>address.Address>p{
+body>main>section:nth-child(9)>aside.details>address.Address>p{
     position: absolute;
     left: 60px;
     right: 0;
@@ -2085,7 +1801,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>p{
     font-family: STFangsong;
 }
 
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div>img:nth-child(1){
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>div>img:nth-child(1){
     width: 40px;
     height: 40px;
     position: absolute;
@@ -2094,7 +1810,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div>img
     top: 200px;
     bottom: 0;
 }
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div>dt{
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>div>dt{
     position: absolute;
     left: 100px;
     right: 0;
@@ -2104,7 +1820,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div>dt{
     font-size: 30px;
 }
 
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>img:nth-child(1){
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>nav>img:nth-child(1){
     width: 40px;
     height: 40px;
     position: absolute;
@@ -2113,7 +1829,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>img
     top: 260px;
     bottom: 0;
 }
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>a#Email{
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>nav>a#Email{
 
     position: absolute;
     left: 100px;
@@ -2125,7 +1841,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>a#E
 
 }
 
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>img#con{
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>nav>img#con{
     width: 40px;
     height: 40px;
     position: absolute;
@@ -2134,7 +1850,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>img
     top: 320px;
     bottom: 0;
 }
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>a#pNum{
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>nav>a#pNum{
     position: absolute;
     left: 100px;
     right: 0;
@@ -2144,7 +1860,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>nav>a#p
     font-size: 30px;
 }
 
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div#addresss>img {
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>div#addresss>img {
     width: 60px;
     height: 50px;
     position: absolute;
@@ -2154,7 +1870,7 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div#add
     bottom: 0;
 }
 
-body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div#addresss>dt {
+body>main>section:nth-child(9)>aside.details>address.Address>article>d1>div#addresss>dt {
     position: absolute;
     left: 100px;
     right: 0;
@@ -2166,19 +1882,19 @@ body>main>section:nth-child(10)>aside.details>address.Address>article>d1>div#add
 
 /*------------------------------------------------------------------------------*/
 
-body>main>section:nth-child(10)>aside.details>nav.ConPageSocial{
+body>main>section:nth-child(9)>aside.details>nav.ConPageSocial{
     position: absolute;
     right: 0;
     bottom: 150px;
     left: 90px;
     /*top: 300px;*/
 }
-body>main>section:nth-child(10)>aside.details>nav.ConPageSocial>div {
+body>main>section:nth-child(9)>aside.details>nav.ConPageSocial>div {
     right: 100px;
     margin-right: 10px;
     display: inline-block;
 }
-body>main>section:nth-child(10)>aside.details>h5#fmotp {
+body>main>section:nth-child(9)>aside.details>h5#fmotp {
     color: #9EFF00;
     position: absolute;
     right: 0;
@@ -2188,7 +1904,7 @@ body>main>section:nth-child(10)>aside.details>h5#fmotp {
 
 
 
-body>main>section:nth-child(10)>aside.SendDetails>div{
+body>main>section:nth-child(9)>aside.SendDetails>div{
     width: 550px;
     height: 470px;
     position: absolute;
@@ -2204,7 +1920,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div{
 
 
 
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName{
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapeName{
     width: 450px;
     height: 50px;
     border-radius: 30px;
@@ -2213,7 +1929,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName{
     right: 100px;
     bottom: 370px;
 }
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName>dt {
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapeName>dt {
     font-size: 20px;
    padding-top: 10px;
     padding-left: 10px;
@@ -2221,7 +1937,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeName>dt {
 }
 /*--------------------------------------------------------------------*/
 
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail{
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapeEmail{
     width: 450px;
     height: 50px;
     border-radius: 30px;
@@ -2230,7 +1946,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail{
     right: 100px;
     bottom: 210px;
 }
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail>dt {
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapeEmail>dt {
     font-size: 20px;
     padding-top: 10px;
     padding-left: 10px;
@@ -2239,7 +1955,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeEmail>dt {
 /*--------------------------------------------------------------------*/
 
 
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapePno{
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapePno{
     width: 450px;
     height: 50px;
     border-radius: 30px;
@@ -2248,14 +1964,14 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapePno{
     right: 100px;
     bottom: 45px;
 }
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapePno>dt {
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapePno>dt {
     font-size: 20px;
     padding-top: 10px;
     padding-left: 10px;
     color: #000000;
 }
 
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage{
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapeMasage{
     width: 450px;
     height: 100px;
     border-radius: 30px;
@@ -2264,7 +1980,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage{
     right: 100px;
     bottom: -180px;
 }
-body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage>dt {
+body>main>section:nth-child(9)>aside.SendDetails>div.ShapeMasage>dt {
     font-size: 20px;
     padding-top: 20px;
     padding-left: 10px;
@@ -2273,7 +1989,7 @@ body>main>section:nth-child(10)>aside.SendDetails>div.ShapeMasage>dt {
 
 
 /*body>main>section:nth-child(10)>aside.SendDetails>div.SendButton {*/
-body>main>section:nth-child(10)>div.SendButton{
+body>main>section:nth-child(9)>div.SendButton{
 
     width: 150px;
     height: 50px;
@@ -2286,7 +2002,7 @@ body>main>section:nth-child(10)>div.SendButton{
     background-color: #00FF7F;
     border-radius: 30px;
 }
-body>main>section:nth-child(10)>div.SendButton>h3{
+body>main>section:nth-child(9)>div.SendButton>h3{
     font-size: 30px;
     top: 200px;
     bottom: 0;

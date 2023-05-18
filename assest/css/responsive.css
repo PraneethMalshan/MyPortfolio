@@ -1,5 +1,5 @@
 @media all and (min-width: 1024px) and (max-width:1440px) {
-   
+
     body>main>section {
         width: 138vw;
         height: 136.5vh;
@@ -457,8 +457,59 @@
         background-color: #FFAE5D;
     }
 
-
-
+    /*-----------------------------Skils page-------------------------------------*/
+    section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(4) {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        bottom: 292px;
+        left: 340px;
+        margin: auto;
+        color: #FFD700;
+        font-size: 50px;
+    }
+    section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(5) {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 289px;
+        left: 340px;
+        margin: auto;
+        color: #FFD700;
+        font-size: 50px;
+    }
+    section:nth-child(4)>section.MainCircle_1>aside.FirstCirclePhotos>article>img:nth-child(6) {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        bottom: 342px;
+        left: 490px;
+        margin: auto;
+        color: #FFD700;
+        font-size: 50px;
+    }
+    section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:nth-child(2) {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        top: 291px;
+        /* bottom: 0; */
+        right: 325px;
+        margin: auto;
+        color: #FFD700;
+        font-size: 50px;
+    }
+    section:nth-child(4)>section.MainCircle_2>aside.SecondCirclePhotos>article>img:nth-child(4) {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        /* top: 0; */
+        bottom: 290px;
+        right: 325px;
+        margin: auto;
+        color: #FFD700;
+        font-size: 50px;
+    }
 
 
 
