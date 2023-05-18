@@ -1,0 +1,495 @@
+@media all and (min-width: 1024px) and (max-width:1440px) {
+   
+    body>main>section {
+        width: 138vw;
+        height: 136.5vh;
+        position: relative;
+        background-color: #05061A;
+        left: 21px;
+        bottom: 0px;
+        right: 0;
+        top: 20px;
+        margin: auto;
+    }
+
+    body>main>section>header>nav>ul {
+        position: absolute;
+        right: 32px;
+        top: 10px;
+    }
+
+    body>main>section>header>nav>ul>li {
+        font-size: 20px;
+        margin-left: 1px;
+        margin-right: 16px;
+        font-family: 'Colonna MT', cursive;
+        /* background-color: rgba(255, 255, 255, 0.27); */
+        /* border-radius: 20px; */
+        display: inline-block;
+    }
+
+    body>div:nth-child(3) {
+        background-color: #FAA400;
+        height: 2.5vh;
+        width: 31vw;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 2;
+    }
+
+    body>div:nth-child(4) {
+        background-color: #FAA400;
+        height: 40vh;
+        width: 2.25vw;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 2;
+    }
+
+    body>div:nth-child(1) {
+        background-color: #FA0079;
+        height: 40vh;
+        width: 2.25vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        z-index: 2;
+    }
+    body>div:nth-child(2) {
+        background-color: #FA0079;
+        height: 2.5vh;
+        width: 31vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        z-index: 2;
+    }
+
+    #BackgroundProfile {
+        width: 620px;
+        height: 520px;
+        position: absolute;
+        margin-right: 60px;
+        top: 80px;
+        right: 0;
+    }
+
+    #ProPile {
+        position: absolute;
+        width: 220px;
+        margin-top: -8px;
+        height: 156px;
+        margin-right: 5px;
+        top: 286px;
+        right: 185px;
+        border-radius: 18px;
+    }
+
+    body>main>section>section>aside>article>h1 {
+        color: #9FFF54;
+        margin-left: 60px;
+        font-size: 95px;
+        display: inline-block;
+    }
+    body>main>section>section>aside>article>h2 {
+        color: #9FFF54;
+        margin-left: 30px;
+        font-size: 55px;
+        display: inline-block;
+    }
+
+    body>main>section>section>aside#SocialMedia>nav:nth-child(1)>div>img {
+        width: 80px;
+        height: 80px;
+    }
+
+    body>main>section>section>aside#SocialMedia>nav:nth-child(1) {
+        position: absolute;
+        right: 50px;
+        bottom: 200px;
+    }
+    body>main>section>section>aside#SocialMedia>h5 {
+        color: #9EFF00;
+        font-size: 20px;
+        position: absolute;
+        bottom: 117px;
+        right: 194px;
+    }
+
+
+
+/*Education page*/
+    section:nth-child(3)>section.Underline>div {
+        width: 1370px;
+        height: 10px;
+        position: absolute;
+        left: 41px;
+        right: 0;
+        bottom: 65px;
+        /* margin: auto; */
+        background-color: #D9D9D9;
+    }
+
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(1) {
+        width: 180px;
+        height: 130px;
+        position: absolute;
+        left: 80px;
+        top: 212px;
+        transform: rotate(0deg);
+    }
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(3) {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        left: 750px;
+        top: 205px;
+        transform: rotate(0deg);
+    }
+
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(2) {
+        width: 180px;
+        height: 130px;
+        position: absolute;
+        left: 1258px;
+        top: 100px;
+        transform: rotate(0deg);
+    }
+
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(4) {
+        width: 180px;
+        height: 130px;
+        position: absolute;
+        left: 13px;
+        top: 164px;
+        transform: rotate(0deg);
+    }
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(11) {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        left: 550px;
+        top: 208px;
+        transform: rotate(0deg);
+    }
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(12) {
+        width: 200px;
+        height: 180px;
+        position: absolute;
+        left: 300px;
+        top: 160px;
+        transform: rotate(0deg);
+    }
+
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(10) {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        left: 1220px;
+        bottom: 594px;
+        transform: rotate(0deg);
+    }
+
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(9) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 950px;
+        bottom: 542px;
+        transform: rotate(0deg);
+    }
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(8) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 290px;
+        bottom: 354px;
+        transform: rotate(15deg);
+    }
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(7) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 740px;
+        bottom: 468px;
+        transform: rotate(0deg);
+    }
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(6) {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 540px;
+        bottom: 396px;
+        transform: rotate(0deg);
+    }
+    section:nth-child(3)>article#ImagesEdu>img:nth-child(5) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 100px;
+        bottom: 334px;
+        transform: rotate(15deg);
+    }
+
+    section:nth-child(3)>section#StepLayerdUp>div:nth-child(1) {
+        width: 10px;
+        height: 215px;
+        position: absolute;
+        left: 20px;
+        bottom: 73px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdUp>div:nth-child(2) {
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 251px;
+        bottom: 289px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdUp>div:nth-child(3) {
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 481px;
+        bottom: 348px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdUp>div:nth-child(4) {
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 711px;
+        bottom: 407px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdUp>div:nth-child(5) {
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 941px;
+        bottom: 465px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdUp>div:nth-child(6) {
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 1171px;
+        bottom: 523px;
+        background-color: #D9D9D9;
+    }
+
+    section:nth-child(3)>section#StepLayerdFlat>div:nth-child(1) {
+        width: 241px;
+        height: 10px;
+        position: absolute;
+        left: 20px;
+        bottom: 279px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdFlat>div:nth-child(2) {
+        width: 240px;
+        height: 10px;
+        position: absolute;
+        left: 251px;
+        bottom: 339px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdFlat>div:nth-child(3) {
+        width: 240px;
+        height: 10px;
+        position: absolute;
+        left: 481px;
+        bottom: 397px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdFlat>div:nth-child(4) {
+        width: 240px;
+        height: 10px;
+        position: absolute;
+        left: 711px;
+        bottom: 456px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdFlat>div:nth-child(5) {
+        width: 240px;
+        height: 10px;
+        position: absolute;
+        left: 941px;
+        bottom: 514px;
+        background-color: #D9D9D9;
+    }
+    section:nth-child(3)>section#StepLayerdFlat>div:nth-child(6) {
+        width: 255px;
+        height: 10px;
+        position: absolute;
+        left: 1171px;
+        bottom: 572px;
+        background-color: #D9D9D9;
+    }
+
+    section:nth-child(3)>section#Bluebox>div:nth-child(1) {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        left: 41px;
+        bottom: 210px;
+        background-color: #00FFFF;
+        border-top: 10px solid #FFFFFF;
+        border-left: 10px solid #FFFFFF;
+        border-right: 10px solid #FFFFFF;
+    }
+    section:nth-child(3)>section#Bluebox>div:nth-child(2) {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        left: 271px;
+        bottom: 270px;
+        background-color: #00FFFF;
+        border-top: 10px solid #FFFFFF;
+        border-left: 10px solid #FFFFFF;
+        border-right: 10px solid #FFFFFF;
+    }
+    section:nth-child(3)>section#Bluebox>div:nth-child(3) {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        left: 501px;
+        bottom: 330px;
+        background-color: #00FFFF;
+        border-top: 10px solid #FFFFFF;
+        border-left: 10px solid #FFFFFF;
+        border-right: 10px solid #FFFFFF;
+    }
+    section:nth-child(3)>section#Bluebox>div:nth-child(4) {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        left: 731px;
+        bottom: 385px;
+        background-color: #00FFFF;
+        border-top: 10px solid #FFFFFF;
+        border-left: 10px solid #FFFFFF;
+        border-right: 10px solid #FFFFFF;
+    }
+    section:nth-child(3)>section#Bluebox>div:nth-child(5) {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        left: 961px;
+        bottom: 445px;
+        background-color: #00FFFF;
+        border-top: 10px solid #FFFFFF;
+        border-left: 10px solid #FFFFFF;
+        border-right: 10px solid #FFFFFF;
+    }
+    section:nth-child(3)>section#Bluebox>div:nth-child(6) {
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        left: 1191px;
+        bottom: 500px;
+        background-color: #00FFFF;
+        border-top: 10px solid #FFFFFF;
+        border-left: 10px solid #FFFFFF;
+        border-right: 10px solid #FFFFFF;
+    }
+
+    section:nth-child(3)>section#Stages>div:nth-child(1) {
+        width: 220px;
+        height: 136px;
+        position: absolute;
+        left: 41px;
+        right: 0;
+        bottom: 74px;
+        background-color: #FFAE5D;
+    }
+    section:nth-child(3)>section#Stages>div:nth-child(2) {
+        width: 220px;
+        height: 196px;
+        position: absolute;
+        left: 271px;
+        right: 0;
+        bottom: 74px;
+        background-color: #FFAE5D;
+    }
+    section:nth-child(3)>section#Stages>div:nth-child(3) {
+        width: 220px;
+        height: 256px;
+        position: absolute;
+        left: 501px;
+        right: 0;
+        bottom: 74px;
+        background-color: #FFAE5D;
+    }
+    section:nth-child(3)>section#Stages>div:nth-child(4) {
+        width: 220px;
+        height: 311px;
+        position: absolute;
+        left: 731px;
+        right: 0;
+        bottom: 74px;
+        background-color: #FFAE5D;
+    }
+    section:nth-child(3)>section#Stages>div:nth-child(5) {
+        width: 220px;
+        height: 371px;
+        position: absolute;
+        left: 961px;
+        right: 0;
+        bottom: 74px;
+        background-color: #FFAE5D;
+    }
+    section:nth-child(3)>section#Stages>div:nth-child(6) {
+        width: 220px;
+        height: 426px;
+        position: absolute;
+        left: 1191px;
+        right: 0;
+        bottom: 74px;
+        background-color: #FFAE5D;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*body>main>section {
+        width: 100%;
+        height: 177vh;
+
+}
+    #BackgroundProfile {
+        position: absolute;
+        margin-right: 61px;
+        top: 482px;
+    }
+
+    #ProPile {
+        top: 631px;
+    }
+
+    a>nav:nth-child(1) {
+        position: absolute;
+        right: 262px;
+        bottom: 290px;
+    }
+*/
+}
