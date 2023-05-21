@@ -296,6 +296,8 @@ body>main>section>section>aside#SocialMedia>nav#call>div {
     z-index: 1;
 }
 
+
+
 /*----------------------------------------------------------------Firstpage Over--------------------------------------*/
 
 
@@ -497,6 +499,9 @@ body>main>section:nth-child(2)>section>h2 {
     text-align: center;
     padding-top: 15px;
     border-radius: 20px;
+}
+body>main>section:nth-child(2)>section>h2>a {
+    text-decoration: none;
 }
 
 /*Gif eka*/
@@ -1538,19 +1543,102 @@ body>main>section:nth-child(6)>div.box{
     letter-spacing: 0.1em;
 }
 
-/*Center photo*/
+/*Link wena path tika*/
 
-.AsimentCenterPho{
-    width: 1200px;
-    height: 550px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+body>main>section:nth-child(6)>article#AssinRoot>nav{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+
 }
 
+body>main>section:nth-child(6)>article#AssinRoot>nav>div{
+    border: 1px solid transparent;
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+body>main>section:nth-child(6)>article#AssinRoot>nav>div:hover{
+    cursor: pointer;
+    /*background-color: #999999;*/
+    background: linear-gradient(to bottom, #8338ec, #6e53f6, #5a67fc, #4778ff, #3a86ff);
+    transition: all 1s;
+
+}
+
+body>main>section:nth-child(6)>article#AssinRoot>nav>div{
+    position: relative;
+    display: flex;
+    margin-left: 44px;
+    margin-right: 44px;
+    margin-bottom: 80px;
+    height: 300px;
+    width: 400px;
+    box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+
+
+body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(1)>li>a{
+    font-size: 30px;
+    color: #2be293;
+    height: 300px;
+    width: 280px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(2)>li>a{
+    font-size: 30px;
+    color: #2be293;
+    height: 300px;
+    width: 280px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+
+}
+body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(3)>li>a{
+    font-size: 30px;
+    color: #2be293;
+    height: 300px;
+    width: 280px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+
+}
+body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(4)>li>a{
+    font-size: 30px;
+    color: #2be293;
+    height: 300px;
+    width: 280px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+
+}
 
 
 

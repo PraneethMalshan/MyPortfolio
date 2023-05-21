@@ -1,0 +1,163 @@
+/*Main Black div eka  >section:nth-child(1)*/
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #000000;
+}
+
+/*Scrol bar eka wenas karana pseudo class ekk*/
+::-webkit-scrollbar{
+    width: 16px;
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2be293 ;
+}
+/*---------------------------------------------------------*/
+
+
+body>div:nth-child(1){
+    background-color: #FA0079;
+    height: 40vh;
+    width: 1.25vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+body>div:nth-child(2){
+    background-color: #FA0079;
+    height: 2.5vh;
+    width: 20vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+}
+body>div:nth-child(3){
+    background-color: #FAA400;
+    height: 2.5vh;
+    width: 20vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+body>div:nth-child(4){
+    background-color: #FAA400;
+    height: 40vh;
+    width: 1.25vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+
+/*Thada nil color div page eka*/
+body>main>section{
+    width: 97.5%;
+    height: 95vh;
+    position: relative;
+    background-color: #05061A;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 18px;
+    margin: auto;
+}
+
+
+/*Topic*/
+.box{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background: black;
+    border-radius: 0;
+    overflow: hidden;
+    top: 20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s ;
+}
+
+.borderLine{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box form{
+    position: absolute;
+    inset: 4px;
+    background: #000000;
+    padding: 10px 5px;
+    border-radius: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.box form .Assingnments{
+    position: absolute;
+    left: -45px;
+    top: 10px;
+}
+
+
+.Assingnments{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 50px;
+    letter-spacing: 0.1em;
+}

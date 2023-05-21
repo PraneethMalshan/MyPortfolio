@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/Customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/images/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/images/body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/loginPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/1saOagePhotos/gifimage2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Assingnments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assests/Assingnments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assests/normalize/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,16 +37,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/framework/pos/assest/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/assests/normalize" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\normalize" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\1saOagePhotos" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\framework\pos\assest\images" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\framework\pos\assest\js" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\framework\pos\assest\css" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\AchievementPage" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\5Page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\css" />
@@ -88,7 +76,7 @@
       <workItem from="1683432091652" duration="25516000" />
       <workItem from="1683481311182" duration="88193000" />
       <workItem from="1683841424847" duration="24000" />
-      <workItem from="1683862803646" duration="111148000" />
+      <workItem from="1683862803646" duration="128858000" />
     </task>
     <servers />
   </component>
