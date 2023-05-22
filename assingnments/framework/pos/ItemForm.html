@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Item Page</title>
+    <meta content="width=device-width inital-scale=1 maxmium-scale=10" name="viewport">
+    <link href="assest/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <style>
+        body{
+            background: url("assest/images/body.png");
+            background-size: cover;
+        }
+        section.abc{
+            width: 1400px;
+            height: 600px;
+            background-color: #eeeeee;
+            position: absolute;
+            top: 50px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        section.abc>main>h1{
+            background-color: #00E8BA;
+            color: #ff253a;
+            font-family: Algerian;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <img alt="..." class="img-thumbnail" height="100" src="assest/images/logo.png" width="50">
+        <a class="navbar-brand" href="#" style="font-family: cursive"> Praneeth POS Syatem</a>
+        <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#"><i class="bi bi-house-fill"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-people-fill"></i> Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-handbag-fill"></i> Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-cart-fill"></i> Place Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-cloud-arrow-down-fill"></i> Order Details</a>
+                </li>
+            </ul>
+            <form class="d-flex offset-4" role="search" >
+                <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<section class="abc">
+    <main class="container">
+        <h1 class="text-center">Item Form</h1>
+
+
+        <section class="row">
+
+            <form class="mt-5">
+                <div class="row ">
+                    <div class="col-6 ">
+                        <input type="text" class="form-control" placeholder="Item Code" aria-label="Item Code">
+                    </div>
+                    <div class="col-6 ">
+                        <input type="text" class="form-control" placeholder="Item Name" aria-label="Item Name">
+                    </div>
+                    <div class="col-6 mt-5">
+                        <input type="text" class="form-control" placeholder="Item QTY" aria-label="Item QTY">
+                    </div>
+                    <div class="col-6 mt-5">
+                        <input type="text" class="form-control" placeholder="Item Price" aria-label="Item Price">
+                    </div>
+                </div>
+            </form>
+
+
+
+            <div class=" mt-5  ">
+                <div class=" offset-4" >
+                    <button type="button" class="btn btn-primary">Add Item</button>
+                    <button type="button" class="btn btn-danger">Delete Item</button>
+                    <button type="button" class="btn btn-warning">Update Item</button>
+                    <button type="button" class="btn btn-success">Get All</button>
+                    <button type="button" style="background-color: #45f3ff" class="btn btn-success">Clear All</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="justify-content-center ">
+            <table class="mt-5 table table-hover table-bordered">
+                <thead>
+                <tr>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Item QTY</th>
+                    <th>Item Price</th>
+                    <th>Edit</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>I001</td>
+                    <td>Maari</td>
+                    <td>50</td>
+                    <td>Rs:120</td>
+                    <td>
+                        <button class="btn btn-danger">Edit</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>I002</td>
+                    <td>Parippu</td>
+                    <td>500-KG</td>
+                    <td>Rs:250</td>
+                    <td>
+                        <button class="btn btn-danger">Edit</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+
+        </section>
+
+
+
+    </main>
+</section>
+
+
+</body>
+</html>
