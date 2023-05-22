@@ -164,7 +164,7 @@ body>main>section{
 /*---------------------------------------------------*/
 
 /*Animation*/
-body>main>h1.animation{
+body>main>section:nth-child(1)>h1.animation{
     color: #ff253a;
     font-size: 60px;
     position: absolute;
@@ -175,3 +175,111 @@ body>main>h1.animation{
 
 }
 
+body>main>section:nth-child(1)>progress{
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    top: 145px;
+    bottom: 0;
+    right: 0;
+    left: 40px;
+
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div{
+    position: relative;
+    display: flex;
+    top: 170px;
+    margin-left: 44px;
+    margin-right: 44px;
+    margin-bottom: 80px;
+    height: 300px;
+    width: 400px;
+    box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div{
+    /*width: 250px;*/
+    /*height: 250px;*/
+    background-color: #FFFFFF;
+    border: 10px solid transparent;
+    transition: all 1s;
+    border-color: #2be293;
+    /*background-color: rgba(255, 255, 255, 0.09);*/
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:hover{
+    cursor: pointer;
+    /*background-color: #999999;*/
+    /*background: linear-gradient(to bottom, #59ec38, #53f68f, #5afcc9, #e3ff47, #3a86ff);*/
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    transition: all 1s;
+}
+
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div>h1 {
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+
+}
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:nth-child(1)>a>img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /*border-color: #9EFF00;*/
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:nth-child(2)>a>img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:nth-child(3)>a>img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:nth-child(4)>a>img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
