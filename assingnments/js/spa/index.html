@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Customer Page</title>
+    <meta content="width=device-width inital-scale=1 maxmium-scale=10" name="viewport">
+    <link href="assest/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="assest/css/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+<!--    <link rel="stylesheet" href="assest/styleSheets/styles.css">
+    <link rel="stylesheet" href="../../framework/pos/assest/styleSheets/DashBoardStyles.css">
+    <link rel="stylesheet" href="../../framework/pos/assest/styleSheets/customerStyles.css">
+    <link rel="stylesheet" href="../../framework/pos/assest/styleSheets/ItemStyles.css">
+    <link rel="stylesheet" href="../../framework/pos/assest/styleSheets/PlaceOrderStyles.css">-->
+    <link rel="stylesheet" href="assest/StyleSheet/PlaceOrderStyles.css">
+    <link rel="stylesheet" href="assest/StyleSheet/ItemStyles.css">
+    <link rel="stylesheet" href="assest/StyleSheet/customerStyles.css">
+    <link rel="stylesheet" href="assest/StyleSheet/DashBoardStyles.css">
+
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="assest/images/logo.png" width="50" height="100" class="img-thumbnail" alt="...">
+            <a class="navbar-brand" href="#" style="font-family: cursive"> Praneeth POS Syatem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#DashBoard" id="dashboard"><i class="bi bi-house-fill"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#customer" id="CustomerForm"><i class="bi bi-people-fill"></i> Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#item" id="itemForm"><i class="bi bi-handbag-fill"></i> Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#placeOrder" id="PlacrOrderForm"><i class="bi bi-cart-fill"></i> Place Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-cloud-arrow-down-fill"></i> Order Details</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<section id="DashBoard">
+    <div></div>
+</section>
+
+
+<section id="customer">
+
+    <section class="abc">
+        <main class="container">
+            <h1 class="text-center">Customer Form</h1>
+
+
+            <section class="row">
+
+                <form class="mt-5">
+                    <div class="row ">
+                        <div class="col-6 ">
+                            <input type="text" class="form-control" placeholder="Customer ID" aria-label="Customer ID">
+                        </div>
+                        <div class="col-6 ">
+                            <input type="text" class="form-control" placeholder="Customer Name" aria-label="Customer Name">
+                        </div>
+                        <div class="col-6 mt-5">
+                            <input type="text" class="form-control" placeholder="Customer Address" aria-label="Customer Address">
+                        </div>
+                        <div class="col-6 mt-5">
+                            <input type="text" class="form-control" placeholder="Customer Email" aria-label="Customer Email">
+                        </div>
+                    </div>
+                </form>
+
+
+
+                <div class=" mt-5  ">
+                    <div class=" offset-4" >
+                        <button type="button" class="btn btn-primary">Save Customer</button>
+                        <button type="button" class="btn btn-danger">Delete Customer</button>
+                        <button type="button" class="btn btn-warning">Update Customer</button>
+                        <button type="button" class="btn btn-success">Get All</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="justify-content-center ">
+                <table class="mt-5 table table-hover table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Customer Address</th>
+                        <th>Customer Email</th>
+                        <th>Edit</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>C001</td>
+                        <td>Praneeth</td>
+                        <td>Elpitiya</td>
+                        <td>praneeth@gmail.lk</td>
+                        <td>
+                            <button class="btn btn-danger">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C002</td>
+                        <td>Malshan</td>
+                        <td>Galle</td>
+                        <td>malshan@gmail.lk</td>
+                        <td>
+                            <button class="btn btn-danger">Edit</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+
+            </section>
+
+
+
+        </main>
+    </section>
+
+</section>
+
+
+<section id="item">
+    <section class="abc">
+        <main class="container">
+            <h1 class="text-center">Item Form</h1>
+
+
+            <section class="row">
+
+                <form class="mt-5">
+                    <div class="row ">
+                        <div class="col-6 ">
+                            <input type="text" class="form-control" placeholder="Item Code" aria-label="Item Code">
+                        </div>
+                        <div class="col-6 ">
+                            <input type="text" class="form-control" placeholder="Item Name" aria-label="Item Name">
+                        </div>
+                        <div class="col-6 mt-5">
+                            <input type="text" class="form-control" placeholder="Item QTY" aria-label="Item QTY">
+                        </div>
+                        <div class="col-6 mt-5">
+                            <input type="text" class="form-control" placeholder="Item Price" aria-label="Item Price">
+                        </div>
+                    </div>
+                </form>
+
+
+
+                <div class=" mt-5  ">
+                    <div class=" offset-4" >
+                        <button type="button" class="btn btn-primary">Add Item</button>
+                        <button type="button" class="btn btn-danger">Delete Item</button>
+                        <button type="button" class="btn btn-warning">Update Item</button>
+                        <button type="button" class="btn btn-success">Get All</button>
+                        <button type="button" style="background-color: #45f3ff" class="btn btn-success">Clear All</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="justify-content-center ">
+                <table class="mt-5 table table-hover table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Item QTY</th>
+                        <th>Item Price</th>
+                        <th>Edit</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>I001</td>
+                        <td>Maari</td>
+                        <td>50</td>
+                        <td>Rs:120</td>
+                        <td>
+                            <button class="btn btn-danger">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>I002</td>
+                        <td>Parippu</td>
+                        <td>500-KG</td>
+                        <td>Rs:250</td>
+                        <td>
+                            <button class="btn btn-danger">Edit</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+
+            </section>
+
+
+
+        </main>
+    </section>
+
+</section>
+
+
+<section id="placeOrder">
+
+    <section class="abc">
+        <main class="container">
+            <h1 class="text-center">Place Order Form</h1>
+
+            <section class="row">
+
+                <form class="row">
+                    <div class="mb-3 col-12 col-md-3">
+                        <label class="form-label" for="orderId">Order ID</label>
+                        <input class="form-control" id="orderId" type="text">
+                    </div>
+                    <div class="mb-3 col-12 col-md-3">
+                        <label class="form-label" for="orderDate">Order Date</label>
+                        <input class="form-control" id="orderDate" type="date">
+                    </div>
+                    <div class="mb-3 col-12 col-md-3">
+                        <label class="form-label" for="orderTime">Order Time</label>
+                        <input class="form-control" id="orderTime" type="time">
+                    </div>
+                </form>
+
+                <form class="row">
+                    <div class="mb-3 col-6 col-md-3">
+                        <label class="form-label" for="cusID">Customer ID</label>
+                        <select class="form-control" id="cusID"></select>
+                    </div>
+                    <div class="mb-3 col-6 col-md-3">
+                        <label class="form-label" for="cusName">Customer Name</label>
+                        <input class="form-control" id="cusName" type="text">
+                    </div>
+                    <div class="mb-3 col-6 col-md-3">
+                        <label class="form-label" for="cusAddress">Customer Address</label>
+                        <input class="form-control" id="cusAddress" type="text">
+                    </div>
+                    <div class="mb-3 col-6 col-md-3">
+                        <label class="form-label" for="cusEmail">Customer Mobile</label>
+                        <input class="form-control" id="cusEmail" type="tel">
+                    </div>
+                </form>
+
+
+                <form class="row">
+                    <div class="mb-3 col-6 col-md-3 col-lg-2">
+                        <label class="form-label" for="itemCode">Item Code</label>
+                        <select class="form-control" id="itemCode"></select>
+                    </div>
+                    <div class="mb-3 col-6 col-md-3 col-lg-2">
+                        <label class="form-label" for="itemName">Item Name</label>
+                        <input class="form-control" id="itemName" type="text">
+                    </div>
+                    <div class="mb-3 col-6 col-md-3 col-lg-2">
+                        <label class="form-label" for="unitPrice">Unit Price</label>
+                        <input class="form-control" id="unitPrice" type="text">
+                    </div>
+                    <div class="mb-3 col-6 col-md-3 col-lg-1">
+                        <label class="form-label" for="category">Category</label>
+                        <input class="form-control" id="category" type="text">
+                    </div>
+                    <div class="mb-3 col-3 col-md-4 col-lg-1">
+                        <label class="form-label" for="qtyOnHand">QtyOnH</label>
+                        <input class="form-control" id="qtyOnHand" type="number">
+                    </div>
+                    <div class="mb-3 col-3 col-md-4 col-lg-1">
+                        <label class="form-label" for="orderQty">QTY </label>
+                        <input class="form-control" id="orderQty" type="number">
+                    </div>
+                    <div class=" col-6 col-md-4 col-lg-3">
+                        <div class="offset-3 m-4 p-2">
+                            <button class="btn btn-outline-primary" type="button">Add To Cart</button>
+                        </div>
+                    </div>
+                </form>
+
+
+                <section class="col-12 col-md-7 col-lg-8">
+                    <table class="table table-striped mt-5 table table-bordered table-hover text-center">
+                        <thead class="bg-black text-white">
+                        <tr>
+                            <th>Item Code</th>
+                            <th>Item Name</th>
+                            <th>Unit Price</th>
+                            <th>Category</th>
+                            <th scope="col">Quantity</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>Biscute</td>
+                            <td>Rs:100</td>
+                            <td>@mdo</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Saman</td>
+                            <td>Rs:300</td>
+                            <td>@fat</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>Choclate</td>
+                            <td>Rs:270</td>
+                            <td>@twitter</td>
+                            <td>2</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+
+                <section class="col-12 col-md-5 col-lg-4">
+                    <form class="row">
+                        <div class="mb-3 col-12 col-lg-8">
+                            <label class="form-label" for="total">Sub Total</label>
+                            <input class="form-control" id="total" type="text">
+                        </div>
+                        <div class="mb-3 col-6 ">
+                            <label class="form-label" for="orderDate">Discount</label>
+                            <input class="form-control" id="discount" type="text">
+                        </div>
+                        <div class="mb-3 col-6 ">
+                            <label class="form-label" for="cash">Cash</label>
+                            <input class="form-control" id="cash" type="text">
+                        </div>
+                        <div class="mb-3 col-5 col-lg-6">
+                            <label class="form-label" for="balance">Balance</label>
+                            <input class="form-control" id="balance" type="text">
+                        </div>
+                        <div class="col-7 mt-2 col-lg-6">
+                            <div class="offset-3 mt-4 ">
+                                <button class="btn btn-outline-success" type="button">Place Order</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+
+
+            </section>
+
+        </main>
+    </section>
+</section>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("DashBoard").style.display = 'inline-block';
+        document.getElementById("customer").style.display = 'none';
+        document.getElementById("item").style.display = 'none';
+        document.getElementById("placeOrder").style.display = 'none';
+    });
+
+    document.getElementById("dashboard").addEventListener('click', function () {
+        document.getElementById("DashBoard").style.display = 'inline-block';
+        document.getElementById("customer").style.display = 'none';
+        document.getElementById("item").style.display = 'none';
+        document.getElementById("placeOrder").style.display = 'none';
+    });
+    document.getElementById("CustomerForm").addEventListener('click', function () {
+        document.getElementById("DashBoard").style.display = 'inline-block';
+        document.getElementById("customer").style.display = 'none';
+        document.getElementById("item").style.display = 'none';
+        document.getElementById("placeOrder").style.display = 'none';
+    });
+    document.getElementById("itemForm").addEventListener('click', function () {
+        document.getElementById("DashBoard").style.display = 'inline-block';
+        document.getElementById("customer").style.display = 'none';
+        document.getElementById("item").style.display = 'none';
+        document.getElementById("placeOrder").style.display = 'none';
+    });
+    document.getElementById("PlacrOrderForm").addEventListener('click', function () {
+        document.getElementById("DashBoard").style.display = 'inline-block';
+        document.getElementById("customer").style.display = 'none';
+        document.getElementById("item").style.display = 'none';
+        document.getElementById("placeOrder").style.display = 'none';
+    });
+
+
+</script>
+
+
+
+<script src="assest/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+
+body{
+    /*background: url("assest/images/body.png");*/
+    background: url("../images/body.png");
+    background-size: cover;
+}
+body>section#DashBoard> div{
+    width: 100px;
+    height: 100px;
+    background-color: #0dcaf0;
+}

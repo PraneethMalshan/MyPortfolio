@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/OrderDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/styleSheets/DashBoardStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/styleSheets/ItemStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/styleSheets/OrderDetailsStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/styleSheets/PlaceOrderStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/framework/pos/assest/styleSheets/customerStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/StyleSheet/DashBoardStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/StyleSheet/ItemStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/StyleSheet/PlaceOrderStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/StyleSheet/customerStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/images/body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/assest/styleSheets/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/js/spa/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/framework/pos/Customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/framework/pos/CustomerForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/framework/pos/CustomerForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/framework/pos/ItemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/framework/pos/ItemForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/framework/pos/PlaceOrderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/framework/pos/PlaceOrderForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/framework/pos/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/framework/pos/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/AnimationAssingnment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/AnimationAssingnment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSS_Asingnment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSS_Asingnment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,33 +63,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/assests/images/transition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/js/spa/assest" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\js\spa\assest" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\js\spa" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\js\spa\assests" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\transition" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\css" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\animationPics" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\normalize" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\1saOagePhotos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\css" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +89,8 @@
       <workItem from="1683432091652" duration="25516000" />
       <workItem from="1683481311182" duration="88193000" />
       <workItem from="1683841424847" duration="24000" />
-      <workItem from="1683862803646" duration="167723000" />
+      <workItem from="1683862803646" duration="194690000" />
+      <workItem from="1685008766723" duration="3348000" />
     </task>
     <servers />
   </component>
