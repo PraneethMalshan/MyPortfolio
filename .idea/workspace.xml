@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/Framework.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/assests/framework.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/assests/images/Framework/POS.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnments/framework/pos/OrderDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/framework/pos/OrderDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/AnimationAssingnment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/AnimationAssingnment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSS_Asingnment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSS_Asingnment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/TransitionAssingnment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/TransitionAssingnment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/Java Script/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/js/spa/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/js/spa/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,16 +35,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/assests/images/Framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/Java Script/SPA/Assests" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\SPA\Assests" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\Framework" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\js\spa\assest" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\js\spa" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\js\spa\assests" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\transition" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\css" />
@@ -80,7 +77,7 @@
       <workItem from="1683481311182" duration="88193000" />
       <workItem from="1683841424847" duration="24000" />
       <workItem from="1683862803646" duration="194690000" />
-      <workItem from="1685008766723" duration="8298000" />
+      <workItem from="1685008766723" duration="24111000" />
     </task>
     <servers />
   </component>

@@ -512,35 +512,135 @@
     }
 
 
+    /*Assingnment Page*/
+
+    body>main>section:nth-child(6)>article#AssinRoot>nav {
+        display: flex;
+        position: relative;
+        align-content: center;
+        top: 200px;
+        justify-content: center;
+    }
+
+    body>main>section:nth-child(7)>section {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 128px;
+        bottom: 0;
+        margin: auto;
+        width: 1200px;
+        height: 550px;
+        border: 2px solid wheat;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(6,1fr);
+        grid-row-gap: 3px;
+        grid-column-gap: 3px;
+    }
+    
+
+    /*Assingnment Page Over*/
+
+
+    /*Projects Page */
+
+    body>main>section:nth-child(5)>section.Rotation {
+        width: 900px;
+        height: 730px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: rgba(252, 252, 252, 0.06);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        transform: perspective(800px);
+    }
+}
 
 
 
+@media all and (min-width: 768px) and (max-width:1024px) {
 
 
 
-
-
-
-
-    /*body>main>section {
-        width: 100%;
-        height: 177vh;
+    body>div:nth-child(1) {
+        background-color: #FA0079;
+        height: 40vh;
+        width: 2.5vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        z-index: 2;
+    }
+    body>div:nth-child(2) {
+        background-color: #FA0079;
+        height: 2.5vh;
+        width: 40vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        z-index: 2;
+    }
+    body>div:nth-child(3) {
+        background-color: #FAA400;
+        height: 2.5vh;
+        width: 40vw;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 2;
+    }
+    body>div:nth-child(4) {
+        background-color: #FAA400;
+        height: 40vh;
+        width: 2.5vw;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 2;
+    }
+    body>main>section {
+        width: 190vw;
+        height: 94vh;
+        position: relative;
+        background-color: #05061A;
+        left: 23px;
+        bottom: 0;
+        right: 0;
+        top: 18px;
+        margin: auto;
+    }
 
 }
-    #BackgroundProfile {
-        position: absolute;
-        margin-right: 61px;
-        top: 482px;
-    }
 
-    #ProPile {
-        top: 631px;
+@media all and (min-width: 425px) and (max-width:768px) {
+    body>div:nth-child(1) {
+        background-color: #FA0079;
+        height: 40vh;
+        width: 5.5vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        z-index: 2;
     }
-
-    a>nav:nth-child(1) {
-        position: absolute;
-        right: 262px;
-        bottom: 290px;
+    body>div:nth-child(2) {
+        background-color: #FA0079;
+        height: 2.5vh;
+        width: 40vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        z-index: 2;
     }
-*/
 }
