@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Que</title>
+    <link rel="stylesheet" href=assests/css/bootstrap.css">
+    <style>
+        p{
+            text-align: center;
+            font-size: 55px;
+        }
+        section{
+            width: 1000px;
+            height: 320px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        section>div{
+            height: 100px;
+            flex-grow: 1;
+            border: 1px solid red;
+            border-radius: 20px;
+        }
+
+        section>div:nth-child(2):before{
+            content: " ";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            height: 105px;
+        }
+        section>div:first-child{
+            align-self: start;
+        }
+
+        section>div:last-child {
+            align-self: end;
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<p> Java Script Ques</p>
+
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+<script>
+    let colour=["red","yellow","green","blue","deeppink","orange"];
+
+
+    setInterval(function (){
+
+        let divArray=document.querySelector("section").children;
+        for(let i=0; i<divArray.length; i++){
+            console.log(divArray[i]);
+            divArray[i].style.background=colour[i];
+
+        }
+        let lv= colour.pop();
+        colour.unshift(lv);
+
+
+
+    },300);
+
+
+
+
+
+
+
+
+    // let myArray=["A","B","C","D","E","F","G","H"];
+
+
+    // myArray.push("K");
+    // array එකේ අන්තිමට value එකක් add කරගන්න පුළුවන් අන්තිමට
+    // ex-: "A","B","C","D","E","F","G","H","K"  මේ ආකාරයට එයි.push යෙදුවිට
+
+
+    // myArray.pop();
+    // array එකේ අන්තිම value එක ඉවත් වෙනවා.
+
+    // myArray.shift();
+    // මුල්ම value එක අයින් වෙනවා.
+
+    //myArray.unshift("0");
+    //මුල් value එකක් add වෙනවා.
+
+    //myArray.slice(0,5);
+    // 0 සිට 5 දක්වා array range එක එනවා.
+
+    //myArray.splice(1,2);
+    //array එකේ 1 වෙනි array එකේ සිට දෙකක් ඉදිරියට delete කරන්න.
+
+    // myArray.reverse();
+    // පැත්ත මාරු වෙනවා.
+
+    // myArray.indexOf("C");
+    // 4 කියලා එන්නේ.
+    //කිවෙනි index එකද කියලා එනවා.
+
+    // myArray.sort()
+    // පිලිවෙලට එඑවා.
+    // colour.push();
+    // colour.pop();
+    // colour.shift();
+    // colour.unshift();
+    // colour.slice();
+    // colour.splice();
+    // colour.length;
+    // colour.indexOf();
+</script>
+
+</body>
+</html>

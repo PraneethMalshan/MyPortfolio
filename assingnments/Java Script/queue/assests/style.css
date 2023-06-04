@@ -1,0 +1,41 @@
+
+body{
+    background-color: black;
+}
+
+section{
+    width: 1000px;
+    height: 320px;
+    border: 2px solid #ff253a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+section>div{
+    border: 2px solid green;
+    display: flex;
+    width: 10px;
+    height: 100px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+section>div:nth-child(1) {
+    align-self: start;
+}
+section>div:last-child {
+    align-self: end;
+}
+
+
+
+
+
+
+
