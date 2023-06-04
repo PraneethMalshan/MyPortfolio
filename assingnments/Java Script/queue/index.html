@@ -2,61 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Que</title>
-    <link rel="stylesheet" href=assests/css/bootstrap.css">
-    <style>
-        p{
-            text-align: center;
-            font-size: 55px;
-        }
-        section{
-            width: 1000px;
-            height: 320px;
-            position: absolute;
-            left: 0;
-            right: 0;
-            margin: auto;
-            top: 0;
-            bottom: 0;
-            display: flex;
-            align-items: center;
-        }
-
-        section>div{
-            height: 100px;
-            flex-grow: 1;
-            border: 1px solid red;
-            border-radius: 20px;
-        }
-
-        section>div:nth-child(2):before{
-            content: " ";
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border-top: 2px solid black;
-            border-bottom: 2px solid black;
-            height: 105px;
-        }
-        section>div:first-child{
-            align-self: start;
-        }
-
-        section>div:last-child {
-            align-self: end;
-
-        }
-
-    </style>
+    <title>QUE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assests/css/bootstrap.css">
+    <link rel="stylesheet" href="assests/style.css">
 
 
 </head>
 <body>
 
 <p> Java Script Ques</p>
+
 
 <section>
     <div></div>
@@ -67,26 +23,35 @@
     <div></div>
 </section>
 
+<button class="btn btn-danger" id="btn">Start</button>
+<button class="btn btn-primary" id="btn1">Stop</button>
+
+<script src="assests/js/jquery-3.6.1.min.js"></script>
+
 <script>
     let colour=["red","yellow","green","blue","deeppink","orange"];
 
+    let divArray=document.querySelector("section").children;
 
-    setInterval(function (){
-
-        let divArray=document.querySelector("section").children;
-        for(let i=0; i<divArray.length; i++){
-            console.log(divArray[i]);
-            divArray[i].style.background=colour[i];
-
-        }
-        let lv= colour.pop();
-        colour.unshift(lv);
+    let out=0;
 
 
+    $("#btn").click(function () {
+        clearInterval(out);
+            out=setInterval(function (){
+                for(let i=0; i<divArray.length; i++){
+                    // console.log(divArray[i]);
+                    divArray[i].style.background=colour[i];
+                }
+                let lv= colour.pop();
 
-    },300);
+                colour.unshift(lv);
+            },500)
+    });
 
-
+    $("#btn1").click(function () {
+        clearInterval(out);
+    })
 
 
 
