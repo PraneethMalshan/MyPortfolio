@@ -1,0 +1,293 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KNIGHT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../Assests/css/bootstrap.min.css">
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        section{
+            height: 100px;
+            width: 1500px;
+            overflow: hidden;
+        }
+
+        section > div{
+            height: 100px;
+            aspect-ratio: 3/1;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        main{
+            position: absolute;
+            inset: 0;
+            margin: auto;
+            width: max-content;
+            height: max-content;
+            bottom: -300px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<section id="container">
+
+</section>
+
+<main>
+  <button class="btn btn-success" id="btnStart" type="button">Start</button>
+  <button class="btn btn-danger" id="btnStop" type="button">Stop</button>
+</main>
+
+<script src="../Assests/js/jquery-3.6.1.min.js"></script>
+<script src="../Assests/js/bootstrap.min.js"></script>
+
+<script>
+
+   /* let divs = ['white', 'white', 'white', 'white', 'white','#DB8D8DFF', '#c65252', '#a83636', '#7f1414','#FC2947'];
+    let opp = ['white', 'white', 'white', 'white', 'white', '#FC2947', '#7f1414', '#a83636', '#c65252','#DB8D8DFF']
+    let count = 0;
+    let check = true;
+
+    function reorder() {
+        if (check == true){
+            let temp = divs.pop();
+            divs.unshift(temp);
+            count++;
+            $('#container').empty();
+            for (obj1 of divs){
+                let div = `<div "style=background-color: ${obj1}"></div>`;
+                $('#container').append(div);
+            }
+            if (count == 10){
+                check = false;
+            }
+        }else if (check == false){
+
+            let temp = opp.shift();
+            opp.push(temp);
+            count&#45;&#45;;
+            $('#container').empty();
+            for (obj1 of opp){
+                let div = `<div style="background-color: ${obj1}"></div>`;
+                $('#container').append(div);
+            }
+            if (count == 0){
+                check = true;
+            }
+        }
+    }
+
+    let inter=0;
+    $('#btnStart').check(function () {
+        clearInterval(inter);
+        inter = setInterval(reorder,50);
+    });
+    $('#btnStop').click(function () {
+        clearInterval(inter);
+    });
+
+*/
+
+   let divs = [ 'white', 'white', 'white', 'white', 'white','#DB8D8DFF', '#c65252', '#a83636', '#7f1414','#680909'];
+   let opp = ['white', 'white', 'white', 'white', 'white', '#FC2947', '#7f1414', '#a83636', '#c65252','#DB8D8DFF'];
+   let count = 0;
+   let check = true;
+
+
+   function reorder() {
+       if ( check == true ) {
+           let temp = divs.pop();
+           divs.unshift(temp);
+           count++;
+           $('#container').empty();
+           for (obj1 of divs) {
+               let div = `<div " style="background-color: ${obj1}"></div>`;
+               $('#container').append(div);
+           }
+           if (count == 10) {
+               check = false;
+           }
+       } else if (check == false) {
+
+           let temp = opp.shift();
+           opp.push(temp);
+           count&#45;&#45;;
+           $('#container').empty();
+           for (obj1 of opp) {
+               let div = `<div  style="background-color: ${obj1}"></div>`;
+               $('#container').append(div);
+           }
+           if (count == 0) {
+               check = true;
+           }
+
+       }
+   }
+
+   let inter=0;
+   $('#btnStart').click(function(){
+       clearInterval(inter);
+       inter =  setInterval(reorder, 50);
+
+   });
+
+   $('#btnStop').click(function(){
+       clearInterval(inter);
+
+   });
+
+
+</script>
+
+</body>
+</html>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knight-Rider</title>
+    <link href="../Assests/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: white;
+        }
+
+        #container {
+            display: flex;
+            height: 70px;
+        }
+
+        #container > div {
+            width: 100%;
+            height: 70px;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+<section class="container-fluid">
+    <section class="row mt-5">
+        <div class="col-12">
+            <h1 class="text-center text-white">Knight-Rider</h1>
+        </div>
+    </section>
+    <section class="row mt-5">
+        <section class="col-12" id="container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </section>
+    <section class="row justify-content-center mt-5">
+        <div class="col-3 d-flex justify-content-around">
+            <button class="btn btn-primary pl-5 pr-5" id="btnStart">Start</button>
+            <button class="btn btn-danger pl-5 pr-5" id="btnStop">Stop</button>
+        </div>
+    </section>
+</section>
+
+
+<script src="../Assests/js/jquery-3.6.1.min.js"></script>
+
+<script>
+
+    // while ()
+    let audio1 = new Audio();
+    audio1.src = "assests/mixkit-retro-video-game-bubble-laser-277 (1).wav";
+
+    var initArray = [];
+    var leftColors = ['white', 'white', 'white', 'white', 'white', 'white', '#d3c5c5', '#be7474', '#cd4a4a', '#b83030', '#c52525', '#dc1e1e'];
+    var rightColors = ['white', 'white', 'white', 'white', 'white', 'white', '#dc1e1e', '#c52525', '#b83030', '#cd4a4a', '#be7474', '#d3c5c5'];
+
+    function animateRight() {
+        let firstValue = initArray.shift();
+        initArray.push(firstValue);
+    }
+
+    function animateLeft() {
+        let lastColor = initArray.pop();
+        initArray.unshift(lastColor);
+    }
+
+    var count = 0;
+
+    function animate() {
+        count++;
+        if (count <= leftColors.length) {
+            initArray = leftColors;
+            animateLeft();
+        } else {
+            if (count >= (leftColors.length * 2)) {
+                count = 0;
+            }
+            initArray = rightColors;
+            animateRight();
+        }
+    }
+
+
+    function renderKnightRider() {
+        $("#container").empty();
+        for (let i = 0; i < (initArray.length) / 2; i++) {
+            $("#container").append(`<div style="background-color: ${initArray[i]}"></div>`)
+        }
+        animate();
+    }
+
+    var id=0;
+
+    $("#btnStart").click(function (){
+        clearInterval(id);
+        id=setInterval(renderKnightRider, 100);
+        console.log("ID when Start btn Called",id);
+        audio1.play();
+
+    });
+    4
+    $("#btnStop").click(function (){
+        clearInterval(id);
+        console.log("ID when End Btn Called",id);
+        audio1.pause();
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+

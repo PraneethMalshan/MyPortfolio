@@ -2,9 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/queue/assests/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/Assests/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests/mixkit-retro-video-game-bubble-laser-277 (1).wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnments/Java Script/queue/assests/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/queue/assests/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assingnments/Java Script/queue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/queue/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +82,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,33 +101,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/Java Script/queue/assests/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/Java Script/KNIGHT/assests" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\KNIGHT\assests" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\Assests" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\queue\assests\js" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\queue\assests\css" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\queue\assests" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\SPA\Assests" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\Framework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\css" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +129,8 @@
       <workItem from="1683841424847" duration="24000" />
       <workItem from="1683862803646" duration="194690000" />
       <workItem from="1685008766723" duration="35762000" />
-      <workItem from="1685634836290" duration="6943000" />
+      <workItem from="1685634836290" duration="15903000" />
+      <workItem from="1686049312757" duration="788000" />
     </task>
     <servers />
   </component>
