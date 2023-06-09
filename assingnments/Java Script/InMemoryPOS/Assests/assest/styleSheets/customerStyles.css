@@ -1,0 +1,27 @@
+body{
+    background: url("../images/body.png");
+    background-size: cover;
+}
+section.abc{
+    width: 1400px;
+    height: 600px;
+    background-color: #eeeeee;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section.abc>main>h1{
+    background-color: #00E8BA;
+    color: #ff253a;
+    font-family: Algerian;
+}
+

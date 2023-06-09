@@ -6,7 +6,8 @@
     <meta content="width=device-width inital-scale=1 maxmium-scale=10" name="viewport">
     <link href="Assests/assest/css/bootstrap.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
-<!--Style Sheets-->
+
+    <!--Style Sheets-->
    <!-- <link rel="stylesheet" href="Assests/assest/styleSheets/customerStyles.css">
     <link rel="stylesheet" href="Assests/assest/styleSheets/DashBoardStyles.css">
     <link rel="stylesheet" href="Assests/assest/styleSheets/ItemStyles.css">
@@ -532,7 +533,109 @@ section.abc4>main>h1{
 
 </section>
 
+
+<script src="Assests/assest/js/jquery-3.6.1.min.js"></script>
+<script src="Assests/assest/js/bootstrap.bundle.js"></script>
+<script src="Assests/assest/js/bootstrap.js"></script>
+
 <script>
+    //logics for SPA
+    initiateUI();
+
+    function initiateUI() {
+        clearAll();
+        $("#Dashboard").css("display", "block");
+        setTheLastView();
+    }
+
+    function saveLastView(clickedID) {
+        switch (clickedID) {
+            case "Dashboard":
+                localStorage.setItem("view", "HOME");
+                break;
+            case "Customer":
+                localStorage.setItem("view", "CUSTOMER");
+                break;
+            case "Item":
+                localStorage.setItem("view", "ITEM");
+                break;
+            case "OrderDetails":
+                localStorage.setItem("view", "ORDER_DETAILS");
+                break;
+
+            case "PlaceOrder":
+                localStorage.setItem("view", "PLACE_ORDER");
+                break;
+        }
+    }
+
+    function setTheLastView() {
+        let view = localStorage.getItem("view");
+        switch (view) {
+            case "HOME":
+                setView($("#Dashboard"));
+                break;
+            case "CUSTOMER":
+                setView($("#Customer"));
+                break;
+
+            case "ITEM":
+                setView($("#Item"));
+                break;
+
+            case "ORDER_DETAILS":
+                setView($("#OrderDetails"));
+                break;
+
+            case "PLACE_ORDER":
+                setView($("#PlaceOrder"));
+                break;
+
+            default:
+                setView($("#Dashboard"))
+
+        }
+    }
+
+    function clearAll() {
+        $("#Dashboard, #Customer, #Item, #OrderDetails, #PlaceOrder").css('display', 'none');
+    }
+
+    function setView(viewOb) {
+        clearAll();
+        viewOb.css("display", "block");
+        saveLastView(viewOb.get(0).id);
+        console.log(viewOb.get(0).id);
+    }
+
+    //bind events
+    $("#DashboardForm").click(function () {
+        setView($("#Dashboard"));
+    });
+
+    $("#CustomerForm").click(function () {
+        setView($("#Customer"));
+    });
+
+    $("#ItemForm").click(function () {
+        setView($("#Item"));
+    });
+
+    $("#OrderDetailsform").click(function () {
+        setView($("#OrderDetails"));
+    });
+
+    $("#PlaceOrderForm").click(function () {
+        setView($("#PlaceOrder"));
+    });
+
+</script>
+
+<!--
+<script>
+
+
+/*
 
     document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("Dashboard").style.display = 'inline-block';
@@ -577,8 +680,10 @@ section.abc4>main>h1{
         document.getElementById("OrderDetails").style.display = 'inline-block';
         document.getElementById("PlaceOrder").style.display = 'none';
     });
+*/
 
-    document.getElementById("bttn1").addEventListener("click", function () {
+
+  /*  document.getElementById("bttn1").addEventListener("click", function () {
        let id = document.getElementById("cusIdText").value;
        let name = document.getElementById("cusNameText").value;
        let address = document.getElementById("cusAddressText").value;
@@ -635,16 +740,108 @@ section.abc4>main>h1{
         tr.append(col4);
 
         tBody.append(tr);
+    });
+*/
 
+</script>
+-->
+
+
+<!--  ===================================== Customer Manage =====================================   -->
+<script>
+
+    var customerDB = [];
+
+    $("#bttn1").click(function () {
+//get values of the text fields
+        let customerID = $("#cusIdText").val();
+        let customerName = $("#cusNameText").val();
+        let customerAddress = $("#cusAddressText").val();
+        let customerEmail = $("#cusEmailText").val();
+
+        let customerOb = {
+            id: customerID,
+            name: customerName,
+            address: customerAddress,
+            email: customerEmail
+        }
+
+        //add customer record to the customer array
+        customerDB.push(customerOb);
+
+        //create row and add text field values
+        let row=`<tr>
+                    <td>${customerID}</td>
+                    <td>${customerName}</td>
+                    <td>${customerAddress}</td>
+                    <td>${customerEmail}</td>
+                   </tr>`;
+        //and then append the row to tableBody
+        $("#tblCustomer").append(row);
 
     });
 
+    $("#btnGetAll").click(function () {
 
+        $("#tblCustomer").empty();
+
+        for (let i = 0; i < customerDB.length; i++) {
+            let id = customerDB[i].id;
+            let name = customerDB[i].name;
+            let address = customerDB[i].address;
+            let email = customerDB[i].email;
+
+            let row = `<tr>
+                     <td>${id}</td>
+                     <td>${name}</td>
+                     <td>${address}</td>
+                     <td>${email}</td>
+                    </tr>`;
+
+            $("#tblCustomer").append(row);
+
+        }
+
+        });
+</script>
+
+
+
+<!-- ===================================== Item Management ===================================== -->
+<script>
+
+    var ItemDB = [];
+
+    $("#buttn1").click(function () {
+//get values of the text fields
+        let itemCode = $("#itemCodeText").val();
+        let itemName = $("#itemNameText").val();
+        let itemQty = $("#itemQTYText").val();
+        let itemPrice = $("#txtItemPrice").val();
+
+        let ItemOb = {
+            code: itemCode,
+            name: itemName,
+            qty: itemQty,
+            price: itemPrice
+        }
+
+        //add customer record to the customer array
+        ItemDB.push(ItemOb);
+
+        //create row and add text field values
+        let row=`<tr>
+                    <td>${itemCode}</td>
+                    <td>${itemName}</td>
+                    <td>${itemQty}</td>
+                    <td>${itemPrice}</td>
+                   </tr>`;
+        //and then append the row to tableBody
+        $("#tblItem").append(row);
+
+    });
 
 </script>
 
-<script src="Assests/assest/js/bootstrap.bundle.js"></script>
-
-<script src="Assests/assest/js/bootstrap.js"></script>
 </body>
 </html>
