@@ -2,20 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Java Script POS</title>
+    <title>Java Script Case-1</title>
     <meta content="width=device-width inital-scale=1 maxmium-scale=10" name="viewport">
-    <link href="Assests/assest/css/bootstrap.css" rel="stylesheet">
+    <link href="InMemoryPOS/Assests/assest/css/bootstrap.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
-<!--Style Sheets-->
-   <!-- <link rel="stylesheet" href="Assests/assest/styleSheets/customerStyles.css">
-    <link rel="stylesheet" href="Assests/assest/styleSheets/DashBoardStyles.css">
-    <link rel="stylesheet" href="Assests/assest/styleSheets/ItemStyles.css">
-    <link rel="stylesheet" href="Assests/assest/styleSheets/OrderDetailsStyles.css">
-    <link rel="stylesheet" href="Assests/assest/styleSheets/PlaceOrderStyles.css">-->
+
 
      <style>
        body{
-            background: url("Assests/assest/images/body.png");
+            background: url("InMemoryPOS/Assests/assest/images/body.png");
             background-size: cover;
         }
 
@@ -110,13 +105,16 @@ section.abc4>main>h1{
     </style>
 
 </head>
+
+<!------------------------------------------------------------------------------------>
+
 <body class="container-fluid">
 <header>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <img src="Assests/assest/images/logo.png" width="50" height="100" class="img-thumbnail" alt="...">
-            <a class="navbar-brand" href="#" style="font-family: cursive"> Praneeth SPA Syatem</a>
+            <img src="InMemoryPOS/Assests/assest/images/logo.png" width="50" height="100" class="img-thumbnail" alt="...">
+            <a class="navbar-brand" href="#" style="font-family: cursive"> Praneeth POS Syatem</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -242,16 +240,16 @@ section.abc4>main>h1{
                 <form class="mt-5">
                     <div class="row ">
                         <div class="col-6 ">
-                            <input type="text" class="form-control" placeholder="Item Code" aria-label="Item Code" id="itemCodeText">
+                            <input type="text" class="form-control" placeholder="Item Code" aria-label="Item Code" id="txtItemCode">
                         </div>
                         <div class="col-6 ">
-                            <input type="text" class="form-control" placeholder="Item Name" aria-label="Item Name" id="itemNameText">
+                            <input type="text" class="form-control" placeholder="Item Name" aria-label="Item Name" id="txtItemName">
                         </div>
                         <div class="col-6 mt-5">
-                            <input type="text" class="form-control" placeholder="Item QTY" aria-label="Item QTY" id="itemQTYText">
+                            <input type="text" class="form-control" placeholder="Item QTY" aria-label="Item QTY" id="txtItemQTY">
                         </div>
                         <div class="col-6 mt-5">
-                            <input type="text" class="form-control" placeholder="Item Price" aria-label="Item Price" id="itemPriceText">
+                            <input type="text" class="form-control" placeholder="Item Price" aria-label="Item Price" id="txtItemPrice">
                         </div>
                     </div>
                 </form>
@@ -260,20 +258,20 @@ section.abc4>main>h1{
 
                 <div class=" mt-5  ">
                     <div class=" offset-4" >
-                        <button type="button" class="btn btn-primary" id="buttn1">Add Item</button>
-                        <button type="button" class="btn btn-danger" id="buttn2">Delete Item</button>
-                        <button type="button" class="btn btn-warning" id="buttn3">Update Item</button>
-                        <button type="button" class="btn btn-success" id="buttn4">Get All</button>
-                        <button type="button" style="background-color: #45f3ff" class="btn btn-success">Clear All</button>
+                        <button type="button" class="btn btn-primary" id="btnItemSave">Add Item</button>
+                        <button type="button" class="btn btn-danger" id="btnItemDelete">Delete Item</button>
+                        <button type="button" class="btn btn-warning" id="btnItemUpdate">Update Item</button>
+                        <button type="button" class="btn btn-success" id="btnItemGetAll">Get All</button>
+                        <button type="button" style="background-color: #45f3ff" class="btn btn-success" id="btnItemClearAll">Clear All</button>
                     </div>
                 </div>
 
             </section>
 
             <section class="justify-content-center ">
-                <table class="mt-5 table table-hover table-bordered" id="tblItem">
+                <table class="mt-5 table table-hover table-bordered" id="ItemTable">
                     <thead>
-                    <tr id="trI">
+                    <tr id="I_tr">
                         <th>Item Code</th>
                         <th>Item Name</th>
                         <th>Item QTY</th>
@@ -282,7 +280,7 @@ section.abc4>main>h1{
                     </tr>
                     </thead>
                     <tbody>
-                    <tr id="tdI">
+                    <tr id="I_td">
                         <td>I001</td>
                         <td>Maari</td>
                         <td>50</td>
@@ -567,7 +565,7 @@ section.abc4>main>h1{
         document.getElementById("Dashboard").style.display = 'none';
         document.getElementById("Customer").style.display = 'none';
         document.getElementById("Item").style.display = 'none';
-        document.getElementById("OrderDetails").style.display = 'none' ;
+        document.getElementById("OrderDetails").style.display = 'none';
         document.getElementById("PlaceOrder").style.display = 'inline-block';
     });
     document.getElementById("PlaceOrderForm").addEventListener('click', function () {
@@ -578,56 +576,26 @@ section.abc4>main>h1{
         document.getElementById("PlaceOrder").style.display = 'none';
     });
 
+
     document.getElementById("bttn1").addEventListener("click", function () {
-       let id = document.getElementById("cusIdText").value;
-       let name = document.getElementById("cusNameText").value;
-       let address = document.getElementById("cusAddressText").value;
-       let email = document.getElementById("cusEmailText").value;
+        let id = document.getElementById("cusIdText").value;
+        let name = document.getElementById("cusNameText").value;
+        let address = document.getElementById("cusAddressText").value;
+        let email = document.getElementById("cusEmailText").value;
 
-       let tBody = document.getElementById("tblCustomer");
-
-       let tr = document.createElement("tr");
-
-       let col1 = document.createElement("td");
-       let col2 = document.createElement("td");
-       let col3 = document.createElement("td");
-       let col4 = document.createElement("td");
-
-       col1.textContent = id;
-       col2.textContent = name;
-       col3.textContent = address;
-       col4.textContent = email;
-
-       tr.append(col1);
-       tr.append(col2);
-       tr.append(col3);
-       tr.append(col4);
-
-       tBody.append(tr);
-    });
-
-
-    document.getElementById("buttn1").addEventListener("click", function () {
-        let code = document.getElementById("itemCodeText").value;
-        let itemName = document.getElementById("itemNameText").value;
-        let qty = document.getElementById("itemQTYText").value;
-        let price = document.getElementById("itemPriceText").value;
-
-        console.log(code,itemName,qty,price);
-
-        let tBody =  document.getElementById("tblItem");
+        let tBody = document.getElementById("tblCustomer");
 
         let tr = document.createElement("tr");
 
-        let col1 =document.createElement("td");
-        let col2 =document.createElement("td");
-        let col3 =document.createElement("td");
-        let col4 =document.createElement("td");
+        let col1 = document.createElement("td");
+        let col2 = document.createElement("td");
+        let col3 = document.createElement("td");
+        let col4 = document.createElement("td");
 
-        col1.textContent = code;
-        col2.textContent = itemName;
-        col3.textContent = qty;
-        col4.textContent = price;
+        col1.textContent = id;
+        col2.textContent = name;
+        col3.textContent = address;
+        col4.textContent = email;
 
         tr.append(col1);
         tr.append(col2);
@@ -635,16 +603,72 @@ section.abc4>main>h1{
         tr.append(col4);
 
         tBody.append(tr);
-
-
     });
 
+  /*  document.getElementById("saveItem").addEventListener("click", function () {
+        let code = document.getElementById("itemCodeText").value;
+        let name = document.getElementById("itemNameText").value;
+        let unitPrice = document.getElementById("unitPriceText").value;
+        let qty = document.getElementById("qtyText").value;
+
+        let tBody = document.getElementById("tblItem");
+
+        let tr = document.createElement("tr");
+
+        let col1 = document.createElement("td");
+        let col2 = document.createElement("td");
+        let col3 = document.createElement("td");
+        let col4 = document.createElement("td");
+
+        col1.textContent = code;
+        col2.textContent = name;
+        col3.textContent = unitPrice;
+        col4.textContent = qty;
+
+        tr.append(col1);
+        tr.append(col2);
+        tr.append(col3);
+        tr.append(col4);
+
+        tBody.append(tr);
+    });
+*/
+
+    document.getElementById("btnItemSave").addEventListener("click", function () {
+        let code = document.getElementById("txtItemCode").value;
+        let name = document.getElementById("txtItemName").value;
+        let qty = document.getElementById("txtItemQTY").value;
+        let price = document.getElementById("txtItemPrice").value;
+
+        console.log(code,name,qty,price);
+
+        let tBody = document.getElementById("ItemTable");
+
+        let tr =document.createElement("tr");
+
+        let col1 = document.createElement("td");
+        let col2 = document.createElement("td");
+        let col3 = document.createElement("td");
+        let col4= document.createElement("td");
+
+        col1.textContent = code;
+        col2.textContent = name;
+        col3.textContent = qty;
+        col4.textContent = price;
+
+        tr.appendChild(col1);
+        tr.appendChild(col2);
+        tr.appendChild(col3);
+        tr.appendChild(col4);
+
+        tBody.appendChild(tr);
+    });
 
 
 </script>
 
-<script src="Assests/assest/js/bootstrap.bundle.js"></script>
+<script src="InMemoryPOS/Assests/assest/js/bootstrap.bundle.js"></script>
 
-<script src="Assests/assest/js/bootstrap.js"></script>
+<script src="InMemoryPOS/Assests/assest/js/bootstrap.js"></script>
 </body>
 </html>

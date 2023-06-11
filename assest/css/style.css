@@ -1445,11 +1445,12 @@ body>main>section:nth-child(5)>div.box{
     letter-spacing: 0.1em;
 }
 /*-----------------------------------------*/
+/*
 
-/*Add Animation photos*/
+!*Add Animation photos*!
 body>main>section:nth-child(5){
-   /* margin: 0;
-    padding: 0;*/
+   !* margin: 0;
+    padding: 0;*!
     box-sizing: border-box;
 }
 
@@ -1518,6 +1519,84 @@ body>main>section:nth-child(5)>section.Rotation>div.Round>div.side{
     transform: rotateY(300deg) translateZ(250px);
 }
 
+*/
+
+
+body>main>section:nth-child(5)>section#bodySection{
+    /*height: 100vh;*/
+    width: 1150px;
+    height: 550px;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+
+}
+body>main>section:nth-child(5)>section#bodySection>section#main-section{
+    display: flex;
+    left: 0px;
+    width: 1150px;
+    height: 550px;
+    top: 0px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+body>main>section:nth-child(5)>section#bodySection>section#main-section>div.slider{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    transform-style: preserve-3d;
+    animation: rotate 25s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+body>main>section:nth-child(5)>section#bodySection>section#main-section>div.slider span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 50deg)) translateZ(450px);
+}
+
+body>main>section:nth-child(5)>section#bodySection>section#main-section>div.slider span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    transition: 2s;
+}
+
+body>main>section:nth-child(5)>section#bodySection>section#main-section>div.slider span:hover img{
+    transform: translateY(-50px) scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+
+
 /*------------------------------Project page is over----------------------------------*/
 
 /*-----------------Assingnment page------------------------------*/
@@ -1570,11 +1649,12 @@ body>main>section:nth-child(6)>article#AssinRoot>nav>div:hover{
 body>main>section:nth-child(6)>article#AssinRoot>nav>div{
     position: relative;
     display: flex;
-    margin-left: 44px;
-    margin-right: 44px;
-    margin-bottom: 80px;
-    height: 300px;
-    width: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    top: 30px;
+    height: 200px;
+    width: 250px;
     box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
     border-radius: 10px;
     flex-direction: column;
@@ -1582,17 +1662,19 @@ body>main>section:nth-child(6)>article#AssinRoot>nav>div{
 
 
 
+
 body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(1)>li>a{
     font-size: 30px;
     color: #2be293;
-    height: 300px;
-    width: 280px;
+    /*height: 300px;*/
+    /*width: 280px;*/
     position: absolute;
-    top: 120px;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;
+    /*margin: auto;*/
     text-decoration: none;
 
 }
@@ -1600,42 +1682,61 @@ body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(1)>li>a{
 body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(2)>li>a{
     font-size: 30px;
     color: #2be293;
-    height: 300px;
-    width: 280px;
+    /*height: 300px;*/
+    /*width: 280px;*/
     position: absolute;
-    top: 120px;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;
+    /*margin: auto;*/
     text-decoration: none;
 
 }
 body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(3)>li>a{
     font-size: 30px;
     color: #2be293;
-    height: 300px;
-    width: 280px;
+    /*height: 300px;*/
+    /*width: 280px;*/
     position: absolute;
-    top: 120px;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;
+    /*margin: auto;*/
     text-decoration: none;
 
 }
 body>main>section:nth-child(6)>article#AssinRoot>nav>div:nth-child(4)>li>a{
     font-size: 30px;
     color: #2be293;
-    height: 300px;
-    width: 280px;
+    /*height: 300px;*/
+    /*width: 280px;*/
     position: absolute;
-    top: 120px;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;
+    /*margin: auto;*/
+    text-decoration: none;
+
+}
+
+body>main>section:nth-child(6)>article#AssinRoot>nav:nth-child(2)>div:nth-child(1)>li>a{
+    font-size: 30px;
+    color: #2be293;
+    /*height: 300px;*/
+    /*width: 280px;*/
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    /*margin: auto;*/
     text-decoration: none;
 
 }

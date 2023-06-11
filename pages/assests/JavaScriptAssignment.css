@@ -1,0 +1,392 @@
+/*Main Black div eka  >section:nth-child(1)*/
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #000000;
+}
+
+/*Scrol bar eka wenas karana pseudo class ekk*/
+::-webkit-scrollbar{
+    width: 16px;
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2be293 ;
+}
+/*---------------------------------------------------------*/
+
+
+body>div:nth-child(1){
+    background-color: #FA0079;
+    height: 40vh;
+    width: 1.25vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+body>div:nth-child(2){
+    background-color: #FA0079;
+    height: 2.5vh;
+    width: 20vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+}
+body>div:nth-child(3){
+    background-color: #FAA400;
+    height: 2.5vh;
+    width: 20vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+body>div:nth-child(4){
+    background-color: #FAA400;
+    height: 40vh;
+    width: 1.25vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+
+/*Thada nil color div page eka*/
+body>main>section{
+    width: 97.5%;
+    height: 95vh;
+    position: relative;
+    background-color: #05061A;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 18px;
+    margin: auto;
+}
+
+
+/*Topic*/
+.box{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background: black;
+    border-radius: 0;
+    overflow: hidden;
+    top: 20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff,#45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s ;
+}
+
+.borderLine{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+
+
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box form{
+    position: absolute;
+    inset: 4px;
+    background: #000000;
+    padding: 10px 5px;
+    border-radius: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.box form .Assingnments{
+    position: absolute;
+    left: -45px;
+    top: 10px;
+}
+
+
+.Assingnments{
+    color: #FAFF00;
+    font-weight: 500;
+    font-family:Magneto;
+    text-align: center;
+    padding-left: 50px;
+    letter-spacing: 0.1em;
+}
+/*---------------------------------------------------*/
+
+/*Animation*/
+body>main>section:nth-child(1)>h1.javaScript{
+    color: #ff253a;
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    right: 0;
+    left: 40px;
+
+}
+
+body>main>section:nth-child(1)>progress{
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    bottom: 0;
+    right: 0;
+    left: 35px;
+
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div{
+    position: relative;
+    display: flex;
+    top: 60px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 110px;
+    height: 180px;
+    width: 220px;
+    box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div{
+    /*width: 250px;*/
+    /*height: 250px;*/
+    background-color: #FFFFFF;
+    border: 10px solid transparent;
+    transition: all 1s;
+    border-color: #2be293;
+    /*background-color: rgba(255, 255, 255, 0.09);*/
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:hover{
+    cursor: pointer;
+    /*background-color: #999999;*/
+    /*background: linear-gradient(to bottom, #59ec38, #53f68f, #5afcc9, #e3ff47, #3a86ff);*/
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    transition: all 1s;
+}
+
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div>h1 {
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: absolute;
+    bottom: 0;
+    top: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:nth-child(1)>a>img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /*border-color: #9EFF00;*/
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:nth-child(2)>a>img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+body>main>section:nth-child(1)>section.AssPics>article>nav>li>div:nth-child(3)>a>img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+
+
+
+/*================================================*/
+
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div{
+    position: relative;
+    display: flex;
+    top: 50px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 110px;
+    height: 180px;
+    width: 220px;
+    box-shadow: 4px 0 76px 10px rgba(184, 184, 184, 1);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div{
+    /*width: 250px;*/
+    /*height: 250px;*/
+    background-color: #FFFFFF;
+    border: 10px solid transparent;
+    transition: all 1s;
+    border-color: #2be293;
+    /*background-color: rgba(255, 255, 255, 0.09);*/
+}
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div:hover{
+    cursor: pointer;
+    /*background-color: #999999;*/
+    /*background: linear-gradient(to bottom, #59ec38, #53f68f, #5afcc9, #e3ff47, #3a86ff);*/
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    transition: all 1s;
+}
+
+
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div>h1 {
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: absolute;
+    bottom: 0;
+    top: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div:nth-child(1)>a>img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /*border-color: #9EFF00;*/
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div:nth-child(2)>a>img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div:nth-child(3)>a>img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}
+
+
+
+/*body>main>section:nth-child(1)>section.AssPics2>article>nav>li>div:nth-child(4)>a>img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 10px solid #000000;
+    border-radius: 20px;
+}*/
+
+
+
