@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/JavaScriptAssignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/assests/JavaScriptAssignment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/assests/images/js/DAsh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/assests/images/js/knight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/assests/images/js/queue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assingnments/Calculater/indexx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/indexx.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/indexx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnments/Java Script/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/SPA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +44,7 @@
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\InMemoryPOS\Assests\assest\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\css" />
@@ -87,7 +79,7 @@
       <workItem from="1683862803646" duration="194690000" />
       <workItem from="1685008766723" duration="35762000" />
       <workItem from="1685634836290" duration="15903000" />
-      <workItem from="1686049312757" duration="69580000" />
+      <workItem from="1686049312757" duration="73218000" />
     </task>
     <servers />
   </component>
