@@ -9,8 +9,8 @@
 
 
 
-     <style>
-       body{
+    <style>
+        body{
             background: url("Assests/assest/images/body.png");
             background-size: cover;
         }
@@ -86,17 +86,17 @@
             color: #ff253a;
             font-family: Algerian;
         }
-section.abc2>main>h1{
+        section.abc2>main>h1{
             background-color: #00E8BA;
             color: #ff253a;
             font-family: Algerian;
         }
-section.abc3>main>h1{
+        section.abc3>main>h1{
             background-color: #00E8BA;
             color: #ff253a;
             font-family: Algerian;
         }
-section.abc4>main>h1{
+        section.abc4>main>h1{
             background-color: #00E8BA;
             color: #ff253a;
             font-family: Algerian;
@@ -174,9 +174,10 @@ section.abc4>main>h1{
                 <div class=" mt-5  ">
                     <div class=" offset-4" >
                         <button type="button" class="btn btn-primary" id="bttn1">Save Customer</button>
-                        <button type="button" class="btn btn-danger" id="bttn2">Delete Customer</button>
-                        <button type="button" class="btn btn-warning" id="bttn3">Update Customer</button>
+                        <button type="button" class="btn btn-danger" id="btnCusDelet">Delete Customer</button>
+                        <button type="button" class="btn btn-warning" id="btnCusUpdate">Update Customer</button>
                         <button type="button" class="btn btn-success" id="bttn4">Get All</button>
+                        <button type="button" class="btn btn-danger" id="btnClear">Clear All</button>
                     </div>
                 </div>
 
@@ -195,19 +196,19 @@ section.abc4>main>h1{
                     </thead>
                     <tbody>
                     <tr id="td">
-                        <td>C001</td>
-                        <td>Praneeth</td>
-                        <td>Elpitiya</td>
-                        <td>praneeth@gmail.lk</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td>
                             <button class="btn btn-danger">Edit</button>
                         </td>
                     </tr>
                     <tr>
-                        <td>C002</td>
-                        <td>Malshan</td>
-                        <td>Galle</td>
-                        <td>malshan@gmail.lk</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td>
                             <button class="btn btn-danger">Edit</button>
                         </td>
@@ -257,17 +258,17 @@ section.abc4>main>h1{
                 <div class=" mt-5  ">
                     <div class=" offset-4" >
                         <button type="button" class="btn btn-primary" id="buttn1">Add Item</button>
-                        <button type="button" class="btn btn-danger" id="buttn2">Delete Item</button>
-                        <button type="button" class="btn btn-warning" id="buttn3">Update Item</button>
-                        <button type="button" class="btn btn-success" id="buttn4">Get All</button>
-                        <button type="button" style="background-color: #45f3ff" class="btn btn-success">Clear All</button>
+                        <button type="button" class="btn btn-danger" id="btnItemDelete">Delete Item</button>
+                        <button type="button" class="btn btn-warning" id="btnItemUpdate">Update Item</button>
+                        <button type="button" class="btn btn-success" id="GetItemAll">Get All</button>
+                        <button type="button" style="background-color: #45f3ff" class="btn btn-success" id="btnItemClear">Clear All</button>
                     </div>
                 </div>
 
             </section>
 
             <section class="justify-content-center ">
-                <table class="mt-5 table table-hover table-bordered" id="tblItem">
+                <table class="mt-5 table table-hover table-bordered" >
                     <thead>
                     <tr id="trI">
                         <th>Item Code</th>
@@ -277,25 +278,25 @@ section.abc4>main>h1{
                         <th>Edit</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr id="tdI">
-                        <td>I001</td>
-                        <td>Maari</td>
-                        <td>50</td>
-                        <td>Rs:120</td>
-                        <td>
-                            <button class="btn btn-danger">Edit</button>
-                        </td>
+                    <tbody id="tblItem">
+                    <!--<tr id="tdI">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <button class="btn btn-danger">Edit</button>
+                      </td>
                     </tr>
                     <tr>
-                        <td>I002</td>
-                        <td>Parippu</td>
-                        <td>500-KG</td>
-                        <td>Rs:250</td>
-                        <td>
-                            <button class="btn btn-danger">Edit</button>
-                        </td>
-                    </tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <button class="btn btn-danger">Edit</button>
+                      </td>
+                    </tr>-->
                     </tbody>
                 </table>
 
@@ -745,39 +746,95 @@ section.abc4>main>h1{
 <!--  ===================================== Customer Manage =====================================   -->
 <script>
 
-    var customerDB = [];
+    var customerDB = [
+        {id:"C001",name:"Dasun",address:"Galle",email:"dasun@gmail.com"},
+        {id:"C002",name:"Kamal",address:"Panadura",email:"kamal@gmail.com"},
+        {id:"C003",name:"Wimal",address:"Panadura",email:"wimal@gmail.com"}
+    ];
+
+    getAllCustomers();
 
     $("#bttn1").click(function () {
-//get values of the text fields
-        let customerID = $("#cusIdText").val();
-        let customerName = $("#cusNameText").val();
-        let customerAddress = $("#cusAddressText").val();
-        let customerEmail = $("#cusEmailText").val();
-
-        let customerOb = {
-            id: customerID,
-            name: customerName,
-            address: customerAddress,
-            email: customerEmail
-        }
-
-        //add customer record to the customer array
-        customerDB.push(customerOb);
-
-        //create row and add text field values
-        let row=`<tr>
-                    <td>${customerID}</td>
-                    <td>${customerName}</td>
-                    <td>${customerAddress}</td>
-                    <td>${customerEmail}</td>
-                   </tr>`;
-        //and then append the row to tableBody
-        $("#tblCustomer").append(row);
-
+        saveCustomer();
     });
 
     $("#btnGetAll").click(function () {
+        getAllCustomers();
+    });
 
+
+    function bindTrEvents(){
+        $('#tblCustomer>tr').click(function(){
+
+            let id=$(this).children().eq(0).text();
+            let name=$(this).children().eq(1).text();
+            let address=$(this).children().eq(2).text();
+            let salary=$(this).children().eq(3).text();
+
+            $("#cusIdText").val(id);
+            $("#cusNameText").val(name);
+            $("#cusAddressText").val(address);
+            $("#cusEmailText").val(salary);
+        })
+    }
+
+
+    //delete event
+    $("#btnCusDelet").click(function (){
+        let id= $("#cusIdText").val();
+
+        let consent= confirm("Do you want to delete.?");
+        if (consent) {
+            let response= deleteCustomer(id);
+            if (response){
+                alert("Customer Deleted");
+                clearCustomerInputFields();
+                getAllCustomers();
+            }else{
+                alert("Customer Not Removed..!");
+            }
+        }
+    });
+
+
+    //update event
+    $("#btnCusUpdate").click(function (){
+        let id= $("#cusIdText").val();
+        updateCustomer(id);
+        clearCustomerInputFields();
+    });
+
+    $("#btnClear").click(function () {
+        clearCustomerInputFields();
+    });
+
+    function saveCustomer() {
+        let customerID = $("#cusIdText").val();
+        if (searchCustomer(customerID.trim()) == undefined){
+            let customerName = $("#cusNameText").val();
+            let customerAddress = $("#cusAddressText").val();
+            let customerEmail = $("#cusEmailText").val();
+
+            let customerOb = {
+                id: customerID,
+                name: customerName,
+                address: customerAddress,
+                email: customerEmail
+            }
+
+            customerDB.push(customerOb);
+            clearCustomerInputFields();
+            getAllCustomers();
+
+        }else {
+            alert("Customer already exits.!");
+            clearCustomerInputFields();
+        }
+
+    }
+
+
+    function getAllCustomers(){
         $("#tblCustomer").empty();
 
         for (let i = 0; i < customerDB.length; i++) {
@@ -795,9 +852,90 @@ section.abc4>main>h1{
 
             $("#tblCustomer").append(row);
 
-        }
+            bindTrEvents();
 
+        }
+    }
+
+
+    function deleteCustomer(id){
+        for (let i = 0; i < customerDB.length; i++) {
+            if (customerDB[i].id == id) {
+                customerDB.splice(i,1);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function searchCustomer(id){
+        return customerDB.find(function (customer){
+            return  customer.id==id;
         });
+    }
+
+
+    function updateCustomer(id){
+        if (searchCustomer(id)==undefined) {
+            alert("No such Customer..please check the ID");
+        }else{
+            let consent= confirm("Do you really want to update this customer.?");
+            if (consent) {
+                let customer= searchCustomer(id);
+
+                let customerName = $("#cusNameText").val();
+                let customerAddress = $("#cusAddressText").val();
+                let customerEmail = $("#cusEmailText").val();
+
+                customer.name=customerName;
+                customer.address=customerAddress;
+                customer.email=customerEmail;
+
+                getAllCustomers();
+            }
+        }
+    }
+
+    function clearCustomerInputFields() {
+        $("#cusIdText,#cusNameText,#cusAddressText,#cusEmailText").val("");
+        $("#cusIdText").focus();
+    }
+
+    //disable tab
+    $("#cusIdText,#cusNameText,#cusAddressText,#cusEmailText").keydown(function (e) {
+
+        if (e.key == "Tab") {
+            e.preventDefault();
+        }
+    });
+
+    $("#cusIdText").keydown(function (e) {
+        if (e.key == "Enter") {
+            $("#cusNameText").focus();
+        }
+    });
+
+    $("#cusNameText").keydown(function (e) {
+        if (e.key == "Enter") {
+            $("#cusAddressText").focus();
+        }
+    });
+
+    $("#cusAddressText").keydown(function (e) {
+        if (e.key == "Enter") {
+            $("#cusEmailText").focus();
+        }
+    });
+
+    $("#cusEmailText").keydown(function (e) {
+        if (e.key == "Enter") {
+            saveCustomer();
+        }
+    });
+
+
+
+
 </script>
 
 
@@ -805,38 +943,198 @@ section.abc4>main>h1{
 <!-- ===================================== Item Management ===================================== -->
 <script>
 
-    var ItemDB = [];
+    var ItemDB = [
+        {code:"C001",name:"Malibun",qty:"2",price:100},
+        {code:"C002",name:"Mari",qty:"4",price:200},
+        {code:"C003",name:"Biscut",qty:"6",price:300}
+    ];
+
+    getAllItems();
 
     $("#buttn1").click(function () {
-//get values of the text fields
-        let itemCode = $("#itemCodeText").val();
-        let itemName = $("#itemNameText").val();
-        let itemQty = $("#itemQTYText").val();
-        let itemPrice = $("#txtItemPrice").val();
+        saveItem();
+    });
 
-        let ItemOb = {
-            code: itemCode,
-            name: itemName,
-            qty: itemQty,
-            price: itemPrice
+    $("#GetItemAll").click(function () {
+        getAllItems();
+    });
+
+    function bindTrEventsItem(){
+        $('#tblItem>tr').click(function(){
+            //get the selected rows data
+            let code=$(this).children().eq(0).text();
+            let name=$(this).children().eq(1).text();
+            let qty=$(this).children().eq(2).text();
+            let price=$(this).children().eq(3).text();
+
+            $("#itemCodeText").val(code);
+            $("#itemNameText").val(name);
+            $("#itemQTYText").val(qty);
+            $("#itemPriceText").val(price);
+        })
+    }
+
+    $("#btnItemDelete").click(function (){
+        let code= $("#itemCodeText").val();
+
+        let consent= confirm("Do you want to delete.?");
+        if (consent) {
+            let response= deleteItem(code);
+            if (response){
+                alert("Item Deleted");
+                clearItemInputFields();
+                getAllItems();
+            }else{
+                alert("Item Not Removed..!");
+            }
+        }
+    });
+
+
+    $("#btnItemUpdate").click(function (){
+        let code= $("#itemCodeText").val();
+        updateItem(code);
+        clearItemInputFields();
+    });
+
+    $("#btnItemClear").click(function () {
+        clearItemInputFields();
+    });
+
+    function saveItem() {
+        let itemCode = $("#itemCodeText").val();
+        if (searchItem(itemCode.trim()) == undefined){
+            let itemName = $("#itemNameText").val();
+            let itemQty = $("#itemQTYText").val();
+            let itemPrice = $("#itemPriceText").val();
+
+            let ItemOb = {
+                code: itemCode,
+                name: itemName,
+                qty: itemQty,
+                price: itemPrice
+            }
+
+            ItemDB.push(ItemOb);
+            clearItemInputFields();
+            getAllItems();
+
+        } else {
+            alert("Item alredy ecits.!")
+            clearItemInputFields();
         }
 
-        //add customer record to the customer array
-        ItemDB.push(ItemOb);
+    }
 
-        //create row and add text field values
-        let row=`<tr>
-                    <td>${itemCode}</td>
-                    <td>${itemName}</td>
-                    <td>${itemQty}</td>
-                    <td>${itemPrice}</td>
+
+    function getAllItems(){
+        $("#tblItem").empty();
+
+        for (let i = 0; i < ItemDB.length; i++) {
+            let code = ItemDB[i].code;
+            let name = ItemDB[i].name;
+            let qty = ItemDB[i].qty;
+            let price = ItemDB[i].price;
+
+            let row=`<tr>
+                    <td>${code}</td>
+                    <td>${name}</td>
+                    <td>${qty}</td>
+                    <td>${price}</td>
                    </tr>`;
-        //and then append the row to tableBody
-        $("#tblItem").append(row);
+            $("#tblItem").append(row);
 
+            bindTrEventsItem();
+
+        }
+    }
+
+    function deleteItem(code){
+        for (let i = 0; i < ItemDB.length; i++) {
+            if (ItemDB[i].code == code) {
+                ItemDB.splice(i,1);
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    function searchItem(code){
+        return ItemDB.find(function (item){
+            return  item.code==code;
+        });
+    }
+
+    function updateItem(code){
+        if (searchItem(code)==undefined) {
+            alert("No such Customer..please check the CODE");
+        }else{
+            let consent= confirm("Do you really want to update this item.?");
+            if (consent) {
+                let item= searchItem(code);
+
+                let itemName = $("#itemNameText").val();
+                let itemQty = $("#itemQTYText").val();
+                let itemPrice = $("#itemPriceText").val();
+
+                item.name=itemName;
+                item.qty=itemQty;
+                item.price=itemPrice;
+
+                getAllItems();
+            }
+        }
+
+    }
+
+    function clearItemInputFields() {
+        $("#itemCodeText,#itemNameText,#itemQTYText,#itemPriceText").val("");
+        $("#itemCodeText").focus();
+
+    }
+
+    //disable tab
+    $("#itemCodeText,#itemNameText,#itemQTYText,#itemPriceText").keydown(function (e) {
+
+        if (e.key == "Tab") {
+            e.preventDefault();
+        }
     });
+
+    $("#itemCodeText").keydown(function (e) {
+        if (e.key == "Enter") {
+            $("#itemNameText").focus();
+        }
+    });
+
+    $("#itemNameText").keydown(function (e) {
+        if (e.key == "Enter") {
+            $("#itemQTYText").focus();
+        }
+    });
+
+    $("#itemQTYText").keydown(function (e) {
+        if (e.key == "Enter") {
+            $("#itemPriceText").focus();
+        }
+    });
+
+    $("#itemPriceText").keydown(function (e) {
+        if (e.key == "Enter") {
+            //save Item
+            saveItem();
+
+        }
+    });
+
+
 
 </script>
 
 </body>
 </html>
+
+
+
+<!--Meeke thamaa ada karapu eewa karanne... Search ekayi updat ekayi-->

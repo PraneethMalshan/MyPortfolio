@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assingnments/Calculater/indexx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/png/5Page/HostelManage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/assests/images/js/calcu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/image/png/5Page/Project-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assest/image/png/5Page/Project-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/Calculater/indexx.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/Calculater/indexx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/indexx.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/indexx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assingnments/Java Script/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/JavaScriptAssignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/JavaScriptAssignment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,34 +39,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/assests/images/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/image/png/5Page" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\5Page" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\calc" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\Calculater\assets" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\js" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\InMemoryPOS" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\InMemoryPOS\Assests\assest\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\js" />
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\css" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,7 +86,8 @@
       <workItem from="1683862803646" duration="194690000" />
       <workItem from="1685008766723" duration="35762000" />
       <workItem from="1685634836290" duration="15903000" />
-      <workItem from="1686049312757" duration="73218000" />
+      <workItem from="1686049312757" duration="76753000" />
+      <workItem from="1686757365063" duration="22436000" />
     </task>
     <servers />
   </component>
