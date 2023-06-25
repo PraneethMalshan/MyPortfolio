@@ -1044,6 +1044,14 @@
         top: 26px;
         margin: auto;
     }
+    #BackgroundProfile {
+        width: 826px;
+        height: 710px;
+        position: absolute;
+        margin-right: 60px;
+        top: 80px;
+        right: 32px;
+    }
 
 
 
@@ -1257,11 +1265,11 @@
         top: 32px;
         margin: auto;
     }
-    #BackgroundProfile {
+    /*#BackgroundProfile {
         width: 500px;
         height: 400px;
         position: absolute;
-        /* margin-right: 60px; */
+        !* margin-right: 60px; *!
         top: 80px;
         right: 61px;
     }
@@ -1269,10 +1277,18 @@
         position: absolute;
         width: 165px;
         height: 130px;
-        /* margin-right: 170px; */
+        !* margin-right: 170px; *!
         top: 231px;
         right: 171px;
         border-radius: 10px;
+    }*/
+    #BackgroundProfile {
+        width: 1184px;
+        height: 1200px;
+        position: absolute;
+        /* margin-right: 60px; */
+        top: 80px;
+        right: 61px;
     }
     body>main>section>section>aside>article>h3 {
         color: #00E8BA;
