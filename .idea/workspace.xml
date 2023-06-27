@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8bbf7a-01ff-485d-8b20-22171b696844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assest/image/png/1saOagePhotos/01MY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/image/png/1saOagePhotos/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/assest/js/jquery-3.7.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/dist/sweetalert2.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/dist/sweetalert2.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/dist/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/dist/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/dist/sweetalert2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/dist/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests/swal-lib/package/sweetalert2.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/controllers/CustomerController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/controllers/DashboardController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/controllers/ItemController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/controllers/OrderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/controllers/OrderDetailsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/controllers/validations/customersValidations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/controllers/validations/itemValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/db/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/models/Customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/models/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/models/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/models/OrderDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/util/common-Methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/image/gif/_______.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/indexx.html" beforeDir="false" afterPath="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/indexx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,17 +34,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assingnments/Java Script/InMemoryPOS/Assests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/image/gif" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\gif" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\InMemoryPOS\Assests" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\InMemoryPOS\Assests\assest\js" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\1saOagePhotos" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assest\image\png\5Page" />
-      <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages\assests\images\calc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments\Java Script\InMemoryPOS\controllers" />
@@ -81,21 +53,6 @@
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\assingnments" />
       <recent name="F:\Praneeth\IJSE\MyWorkingZone\MyPortfolio\pages" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +70,8 @@
       <workItem from="1685634836290" duration="15903000" />
       <workItem from="1686049312757" duration="76753000" />
       <workItem from="1686757365063" duration="24590000" />
-      <workItem from="1686928590191" duration="97001000" />
+      <workItem from="1686928590191" duration="103061000" />
+      <workItem from="1687839899108" duration="1508000" />
     </task>
     <servers />
   </component>

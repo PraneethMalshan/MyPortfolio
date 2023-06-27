@@ -36,7 +36,32 @@
         Maximum scale ekem eyaawa zoom karanna puluwan uparima levele eka desingn krla thiynna puluwan...
         minimum-scale=2 ===Meya maximum  soom ekee anik paththayi
         user-scalable=no  === Meyin soom wenne naa. stop wenawa devise ekee gaanatama hariyata scaleup wela gaanata thiyenawa..-->
+    <style>
+        #loader {
+            transition: opacity 1s;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: black;
+            z-index: 2;
+        }
 
+        #loader > div {
+            width: 290px;
+            height: 290px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            background: url("assest/image/gif/_______.gif");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 
 </head>
 
@@ -589,9 +614,26 @@ Meeka Athule thamayi website ekee ahata peena siyaluma deewal tika siyaluma cont
 
     </main>
 
+    <div id="loader">
+        <div></div>
+    </div>
+
 <!--   </section>
 </section>-->
+    <script src="assingnments/Java Script/InMemoryPOS/Assests/assest/js/jquery-3.6.1.min.js"></script>
 
+    <script>
+
+        $(window).on('load',function(){
+            $("#loader").fadeOut(300);
+        });
+
+
+        $(document).ready(function (){
+            $("body").prepend();
+        });
+
+    </script>
 </body>
 
 </html>
